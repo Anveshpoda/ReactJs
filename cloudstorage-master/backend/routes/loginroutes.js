@@ -40,7 +40,7 @@ exports.register = function(req,res){
    }else{
     //  console.log('The solution is: ', results);
      res.send({
-       "code":200,
+       //"code":200,
        "success":"user registered sucessfully"
          });
    }
@@ -85,6 +85,7 @@ exports.login = function(req,res){
           })
         }
 
+      
       }
       else{
         res.send({
