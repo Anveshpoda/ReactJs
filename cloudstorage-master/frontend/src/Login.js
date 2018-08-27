@@ -5,7 +5,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
 import DropDownMenu from 'material-ui/DropDownMenu';
 import MenuItem from 'material-ui/MenuItem';
-var apiBaseUrl = "http://localhost:4000/api/";
+var apiBaseUrl = "http://localhost:8080/";
 import axios from 'axios';
 import UploadPage from './UploadPage';
 class Login extends Component {
@@ -102,22 +102,22 @@ class Login extends Component {
 	    "password":this.state.password,
       "role":this.state.loginRole
     }
-    axios.post(apiBaseUrl+'login', payload)
+    axios.post(apiBaseUrl+'userLogin/login', payload)
    .then(function (response) {
      console.log(response);
-     if(response.data.code == 200){
+     if(response.data.statusCode == 200){
        console.log("Login successfull");
        var uploadScreen=[];
        uploadScreen.push(<UploadPage appContext={self.props.appContext} role={self.state.loginRole}/>)
        self.props.appContext.setState({loginPage:[],uploadScreen:uploadScreen})
      }
-     else if(response.data.code == 204){
+     else if(response.data.statusCode  == 204){
        console.log("Username password do not match");
        alert(response.data.success)
      }
      else{
-       console.log("Username does not exists");
-       alert("Username does not exist");
+       console.log(response.data.statusMessage);
+       alert(response.data.statusMessage);
      }
    })
    .catch(function (error) {
