@@ -5,9 +5,15 @@ import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
 import DropDownMenu from 'material-ui/DropDownMenu';
 import MenuItem from 'material-ui/MenuItem';
-var apiBaseUrl = "http://localhost:8080/";
+var apiBaseUrl="http://localhost:8080/";
 import axios from 'axios';
 import UploadPage from './UploadPage';
+
+
+const style={
+  margin: 15,
+};
+
 class Login extends Component {
   constructor(props){
     super(props);
@@ -18,14 +24,14 @@ class Login extends Component {
          <TextField
            hintText="Enter your College Rollno"
            floatingLabelText="Student Id"
-           onChange = {(event,newValue)=>this.setState({username:newValue})}
+           onChange={(event,newValue)=>this.setState({username:newValue})}
            />
          <br/>
            <TextField
              type="password"
              hintText="Enter your Password"
              floatingLabelText="Password"
-             onChange = {(event,newValue) => this.setState({password:newValue})}
+             onChange={(event,newValue) => this.setState({password:newValue})}
              />
            <br/>
            <RaisedButton label="Submit" primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
@@ -42,8 +48,8 @@ class Login extends Component {
   }
   componentWillMount(){
   // console.log("willmount prop values",this.props);
-  if(this.props.role != undefined){
-    if(this.props.role == 'student'){
+  if(this.props.role!==undefined){
+    if(this.props.role==='student'){
       console.log("in student componentWillMount");
       var localloginComponent=[];
       localloginComponent.push(
@@ -52,14 +58,14 @@ class Login extends Component {
            <TextField
              hintText="Enter your College Rollno"
              floatingLabelText="Student Id"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
+             onChange={(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
              <TextField
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
-               onChange = {(event,newValue) => this.setState({password:newValue})}
+               onChange={(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
              <RaisedButton label="Submit" primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
@@ -68,7 +74,7 @@ class Login extends Component {
       )
       this.setState({menuValue:1,loginComponent:localloginComponent,loginRole:'student'})
     }
-    else if(this.props.role == 'teacher'){
+    else if(this.props.role==='teacher'){
       console.log("in teacher componentWillMount");
       var localloginComponent=[];
       localloginComponent.push(
@@ -77,14 +83,14 @@ class Login extends Component {
            <TextField
              hintText="Enter your College Rollno"
              floatingLabelText="Teacher Id"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
+             onChange={(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
              <TextField
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
-               onChange = {(event,newValue) => this.setState({password:newValue})}
+               onChange={(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
              <RaisedButton label="Submit" primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
@@ -96,7 +102,7 @@ class Login extends Component {
   }
   }
   handleClick(event){
-    var self = this;
+    var self=this;
     var payload={
       "userid":this.state.username,
 	    "password":this.state.password,
@@ -105,13 +111,14 @@ class Login extends Component {
     axios.post(apiBaseUrl+'userLogin/login', payload)
    .then(function (response) {
      console.log(response);
-     if(response.data.statusCode == 200){
+     if(response.data.statusCode===200){
        console.log("Login successfull");
+       
        var uploadScreen=[];
        uploadScreen.push(<UploadPage appContext={self.props.appContext} role={self.state.loginRole}/>)
        self.props.appContext.setState({loginPage:[],uploadScreen:uploadScreen})
      }
-     else if(response.data.statusCode  == 204){
+     else if(response.data.statusCode===204){
        console.log("Username password do not match");
        alert(response.data.success)
      }
@@ -127,7 +134,7 @@ class Login extends Component {
   handleMenuChange(value){
     console.log("menuvalue",value);
     var loginRole;
-    if(value==1){
+    if(value===1){
       var localloginComponent=[];
       loginRole='student';
       localloginComponent.push(
@@ -136,14 +143,14 @@ class Login extends Component {
            <TextField
              hintText="Enter your College Rollno"
              floatingLabelText="Student Id"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
+             onChange={(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
              <TextField
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
-               onChange = {(event,newValue) => this.setState({password:newValue})}
+               onChange={(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
              <RaisedButton label="Submit" primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
@@ -151,7 +158,7 @@ class Login extends Component {
          </MuiThemeProvider>
       )
     }
-    else if(value == 2){
+    else if(value==2){
       var localloginComponent=[];
       loginRole='teacher';
       localloginComponent.push(
@@ -160,14 +167,14 @@ class Login extends Component {
            <TextField
              hintText="Enter your College Rollno"
              floatingLabelText="Teacher Id"
-             onChange = {(event,newValue) => this.setState({username:newValue})}
+             onChange={(event,newValue) => this.setState({username:newValue})}
              />
            <br/>
              <TextField
                type="password"
                hintText="Enter your Password"
                floatingLabelText="Password"
-               onChange = {(event,newValue) => this.setState({password:newValue})}
+               onChange={(event,newValue) => this.setState({password:newValue})}
                />
              <br/>
              <RaisedButton label="Submit" primary={true} style={style} onClick={(event) => this.handleClick(event)}/>
@@ -202,8 +209,5 @@ class Login extends Component {
   }
 }
 
-const style = {
-  margin: 15,
-};
 
 export default Login;

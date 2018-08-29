@@ -1,0 +1,71 @@
+
+@import '~antd/dist/antd.css';
+
+
+.App {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #Table {
+    width: 100%;
+    border: 1px solid #ccc;
+
+  }
+  
+  #Table table {
+    width: 100%;
+  }
+  
+  #Table td,#Table tr,#Table th {
+      border: 1px solid #ccc;
+  }
+  
+  #Form label {
+      display: block;
+      margin: 15px 0;
+  }
+  
+  #Form input {
+    margin-left: 10px;
+  }
+  
+  #Form button {
+    width: 100px;
+    padding: 15px 0;
+    border: none;
+    margin: 25px 0;
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(-100000deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .App-logo {
+    float: right;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+    left: -5px;
+    top: 3px;
+    position: absolute;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 85px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 3em;
+    left: 40%;
+    top:-10px;
+    position: absolute;
+  
+  }
