@@ -16,7 +16,9 @@ class App extends Component {
                  <h1 className="App-title">Anvesh Annu</h1>
                 </header>
             
-               <ul>
+               <ul id="horizontal-list">
+                  {/* <li><a href="/">Home</a></li>
+                  <li><a href="/Login">Login</a></li> */}
                   <li><Link to={'/'}>Home</Link></li>
                   <li><Link to={'/Login'}>Login</Link></li>
                </ul>

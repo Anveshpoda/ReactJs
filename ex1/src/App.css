@@ -65,7 +65,8 @@
   .App-title {
     font-size: 3em;
     left: 40%;
-    top:-10px;
+    top:10px;
+    color: white;
     position: absolute;
   
   }
