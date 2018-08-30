@@ -1,32 +1,25 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import { browserHistory , hashHistory } from '../node_modules/react-router/lib';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
+import Login1 , {Table} from './Login1';
+import Hedder from './components/Hedder';
+import { Button , ButtonGroup , Navbar,Nav,MenuItem,NavItem,NavDropdown } from 'react-bootstrap';
 
 class App extends Component {
-   render() {
-      return (       
+   render() {  
+      return (        
          <Router>
-            <div>
-                <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                 <h1 className="App-title">Anvesh Annu</h1>
-                </header>
-            
-               <ul id="horizontal-list">
-                  {/* <li><a href="/">Home</a></li>
-                  <li><a href="/Login">Login</a></li> */}
-                  <li><Link to={'/'}>Home</Link></li>
-                  <li><Link to={'/Login'}>Login</Link></li>
-               </ul>
-               <hr />
-               
+            <div>               
+             <Hedder/> 
                <Switch>
                   <Route exact path='/' component={Home} />
                   <Route exact path='/Login' component={Login} />
+                  <Route exact path='/Login1' component={Login1} />
+                  <Route exact path='/Table' component={Table} /> 
                </Switch>
             </div>
          </Router>

@@ -42,7 +42,7 @@
   }
 
   @keyframes App-logo-spin {
-    from { transform: rotate(-100000deg); }
+    from { transform: rotate(-10000deg); }
     to { transform: rotate(360deg); }
   }
 
@@ -65,7 +65,7 @@
   .App-title {
     font-size: 3em;
     left: 40%;
-    top:10px;
+    top:15px;
     color: white;
     position: absolute;
   

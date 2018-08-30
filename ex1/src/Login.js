@@ -100,6 +100,14 @@ class Login extends Component {
     }
     
 
+    
+  handleInputChange=(e)=>{
+    this.setState({
+        username :e.target.value,
+        email :e.target.value,
+        number:e.target.value
+    })
+}
     render() {
         const item = this.state.items;
         return (
