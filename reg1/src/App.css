@@ -14,6 +14,37 @@
   color: white;
 }
 
+#Form label {
+  display: block;
+  margin: 15px 0;
+}
+
+#Form input {
+margin-left: 10px;
+}
+
+#Form button {
+width: 100px;
+padding: 15px 0;
+border: none;
+margin: 25px 0;
+}
+
+
+#Table {
+  width: 60%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+#Table table {
+  width: 100%;
+}
+
+#Table td,#Table tr {
+    border: 1px solid #ccc;
+}
+
 .App-title {
   font-size: 1.5em;
 }

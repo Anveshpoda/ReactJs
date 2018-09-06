@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './css/App.css';
-import { browserHistory , hashHistory } from '../node_modules/react-router/lib';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
-import Login1 , {Table} from './Login1';
+import Table from './Table';
+import Login1 , {Form} from './Login1';
 import Hedder from './components/Hedder';
-import { Button , ButtonGroup , Navbar,Nav,MenuItem,NavItem,NavDropdown } from 'react-bootstrap';
+//import { Button , ButtonGroup , Navbar,Nav,MenuItem,NavItem,NavDropdown } from 'react-bootstrap';
 
 class App extends Component {
    render() {  
