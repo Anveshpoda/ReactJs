@@ -34,7 +34,7 @@ const Header = () =>{
                  <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
                  <MenuItem eventKey={3.1} href="/Login1">LOGIN</MenuItem>
                  <MenuItem eventKey={3.2} href="/Table">Table</MenuItem>
-                 <MenuItem eventKey={3.3}>Something else here</MenuItem>
+                 <MenuItem eventKey={3.3} href="/category">Category</MenuItem>
                  <MenuItem divider />
                  <MenuItem eventKey={3.3}>Sign Out</MenuItem>
                 </NavDropdown>

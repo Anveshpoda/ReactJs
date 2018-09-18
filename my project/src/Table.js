@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 import Login, { Form } from './Login1';
-import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import { Table, Divider, Tag } from 'antd';
 
 import ReactTable from "react-table";
@@ -15,10 +15,11 @@ export default class Table1 extends React.Component {
       username: '',
       password: '',
       mobile: '',
-      noRows: 10,
+      noRows: '4',
       show: false,
       row: {},
       errors: {},
+      newArr: [],
       items: JSON.parse(localStorage.getItem('Item'))
     };
   }
@@ -37,10 +38,14 @@ export default class Table1 extends React.Component {
   };
 
   remove = (rowId) => {
+    const arrayCopy1 = this.state.newArr.filter((row) => row.id !== rowId);
     const arrayCopy = this.state.items.filter((row) => row.id !== rowId);
-    this.setState({ items: arrayCopy });
+    var noRows = this.state.noRows
+     if(arrayCopy.length%2==0) noRows-=2
+    
+    this.setState({ newArr: arrayCopy1, items: arrayCopy, noRows });
     localStorage.setItem('Item', JSON.stringify(arrayCopy));
-    console.log(rowId)
+    console.log(rowId + " row removed")
   };
 
   handleFormSubmit = (e) => {
@@ -72,11 +77,28 @@ export default class Table1 extends React.Component {
       errors[e.target.name] = e.target.name + " cannot be empty";
     } else errors[e.target.name] = ''
 
+    var arr = []
+    if (e.target.name === "noRows") {
+      for (let ar in this.state.items) {
+        if (ar === e.target.value) break
+        arr.push(this.state.items[ar])
+      }
+    }
+
     return this.setState({
+      errors,
       [e.target.name]: e.target.value,
-      errors
+      newArr: arr
     })
   };
+
+  createSelectItems() {
+    let opt = [];
+    for (let i = 0; i <= this.state.items.length+1; i+=2) {
+      opt.push(<option key={i} value={i}>{i}</option>);
+    }
+    return opt;
+  }
 
   render() {
     // const items=JSON.parse(localStorage.getItem('Item'));
@@ -84,27 +106,24 @@ export default class Table1 extends React.Component {
     let form;
     if (this.state.show) form = <Form handleFormSubmit={this.handleFormSubmit} handleInputChange={this.handleInputChange} newUsername={this.state.username} newMobile={this.state.mobile} newPassword={this.state.password} errors={this.state.errors} />
     else form = [];
+    var arr = this.state.newArr
+    console.log(arr)
+    if (arr.length < 1) {
+      for (let ar in items) {
+        if (ar === this.state.noRows) break
+        arr.push(items[ar])
+      }
+    }
 
-
-    console.log(items)
     return (
       <div id="Table" >
-       <DefaultPaginationTable edit={this.edit} remove={this.remove}/>  <br /><br />
-        <label>
-          No of Rows :-  &nbsp;
-            <select id="noRows" value={this.state.selectValue} onChange={this.handleChange} >
-            <option value="2" >2</option>
-            <option value="4" >4</option>
-            <option value="6" >6</option>
-            <option value="8" >8</option>
-            <option value="10" >10</option>
-            <option value="12" >12</option>
-            <option value="14" >14</option>
-            <option value="16" >16</option>
-            <option value="18" >18</option>
-            <option value="20" >20</option>
-          </select>
-        </label>
+        <DefaultPaginationTable edit={this.edit} items={this.state.newArr} pgNo={this.state.noRows / 2} remove={this.remove} />  <br /><br />
+
+        No of Rows :-  &nbsp;
+            <select name="noRows" onChange={this.handleInputChange} value={this.state.noRows}>
+            {this.createSelectItems()}
+        </select>
+
 
         <table CELLSPACING="2px" className="table table-bordered">
           <thead>
@@ -115,7 +134,7 @@ export default class Table1 extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {items.map(item => {
+            {arr.map(item => {
               return (
                 <tr border-spacing="10px">
                   <td>{item.username}</td>
@@ -130,7 +149,7 @@ export default class Table1 extends React.Component {
         </table>
         <center> <Link to={'/login1'}><button type="button" value="BACK">ADD</button></Link>
           {/* <button type="button" onClick={this.redir} value="BACK">Back</button> */}
-        
+
           {form} </center>
         {/* <Form handleFormSubmit={this.handleFormSubmit} handleInputChange={this.handleInputChange} newUsername={this.state.username} newMobile={this.state.mobile} newPassword={this.state.password} /> */}
 
@@ -148,30 +167,33 @@ export default class Table1 extends React.Component {
 
 
 
-function activeFormatter(cell, row) {
-  return (
-    <ActiveFormatter active={ cell } />
-  );
-}
+// function activeFormatter(cell, row) {
+//   return (
+//     <ActiveFormatter active={ row } />
+//   );
+// }
 
-class ActiveFormatter extends React.Component {
-  render() {
-    return (
+// class ActiveFormatter extends React.Component {
+//   render() {
+//     return (
 
-      <input type='checkbox' checked={ this.props.active }/>
-      // <input type="button" value="Edit" onClick={() => this.edit( this.props.active )} className="del-btn" />
-    );
-  }
-}
+//       // <input type='checkbox' checked={ this.props.active }/>
+//       <input type="button" value="Edit" onClick={() => this.edit( this.props.active )} className="del-btn" />
+//     );
+//   }
+// }
 
-function onAfterInsertRow(row) {
-  let newRowStr = '';
+// function onAfterInsertRow(row) {
+//   let items = JSON.parse(localStorage.getItem('Item'))
+//   items.push(row);
+//   localStorage.setItem('Item', JSON.stringify(items));
 
-  for (const prop in row) {
-    newRowStr += prop + ': ' + row[prop] + ' \n';
-  }
-  alert('The new row is:\n ' + newRowStr);
-}
+//   let newRowStr = '';
+//   for (const prop in row) {
+//     newRowStr += prop + ': ' + row[prop] + ' \n';
+//   }
+//   alert('The new row is:\n ' + newRowStr);
+// }
 
 
 
@@ -182,80 +204,71 @@ function onAfterInsertRow(row) {
 
 class DefaultPaginationTable extends React.Component {
   render() {
-    const items = JSON.parse(localStorage.getItem('Item'))
-    
-
-  
-const columns = [{
-  title: 'User Name',
-  dataIndex: 'username',
-  key: 'username',
-  // render: text => <a href="javascript:;">{text}</a>,
-}, {
-  title: 'Password',
-  dataIndex: 'password',
-  key: 'password',
-}, {
-  title: 'Mobile',
-  dataIndex: 'mobile',
-  key: 'mobile',
-}, {
-//   title: 'Tags',
-//   key: 'tags',
-//   dataIndex: 'tags',
-//   render: tags => (
-//     <span>
-//       {/* {tags.map(tag => <Tag color="blue" key={tag}>{tag}</Tag>)} */}
-//     </span>
-//   ),
-// }, {
-  title: 'Action',
-  key: 'action',
-  render: (text, record) => (
-   <div>
-      <input type="button" value="Delete" onClick={() => this.props.remove(record.id)} className="del-btn" />
-      {/* <a href="javascript:;">Invite {record.name}</a> */}
-      <Divider type="vertical" />
-      <input type="button" value="Edit" onClick={() => this.props.edit(record)} className="del-btn" />
-      {/* <a href="javascript:;">Delete</a> */}
-   </div>
-  ),
-}];
+    //const items = JSON.parse(localStorage.getItem('Item'))
+    const items = this.props.items
 
 
-    const options = {
-      afterInsertRow: onAfterInsertRow,
-      defaultSortName: 'mobile',  // default sort column name
-      defaultSortOrder: 'desc',  // default sort order
-      page: 1,  // which page you want to show as default
-      sizePerPageList: [ 
-         { text: '2', value: 2 },  { text: '4', value: 4 },  { text: '6', value: 6 },  { text: '8', value: 8 },
-         { text: '10', value: 10 },  { text: '12', value: 12 }, { text: '14', value: 14 }, 
-         { text: 'All', value: items.length } ], // you can change the dropdown list for size per page
-       sizePerPage: 6,  // which size per page you want to locate as default
-      pageStartIndex: 1, // where to start counting the pages
-      paginationSize: 3,  // the pagination bar size.
-      prePage: 'Prev', // Previous page button text
-      nextPage: 'Next', // Next page button text
-      firstPage: 'First', // First page button text
-      lastPage: 'Last', // Last page button text
-      paginationShowsTotal: this.renderShowsTotal,  // Accept bool or function
-      //paginationPosition: 'top'  // default is bottom, top and both is all available
-       //hideSizePerPage: true, //> You can hide the dropdown for sizePerPage
-      // alwaysShowAllBtns: true // Always show next and previous button
-      // withFirstAndLast: false > Hide the going to First and Last page button
-    };
-  
+
+    const columns = [{
+      title: 'User Name',
+      dataIndex: 'username',
+      key: 'username',
+      // render: text => <a href="javascript:;">{text}</a>,
+    }, {
+      title: 'Password',
+      dataIndex: 'password',
+      key: 'password',
+    }, {
+      title: 'Mobile',
+      dataIndex: 'mobile',
+      key: 'mobile',
+    }, {
+      title: 'Action',
+      key: 'action',
+      render: (text, record) => (
+        <div>
+          <input type="button" value="Delete" onClick={() => this.props.remove(record.id)} className="del-btn" />
+          {/* <a href="javascript:;">Invite {record.name}</a> */}
+          <Divider type="vertical" />
+          <input type="button" value="Edit" onClick={() => this.props.edit(record)} className="del-btn" />
+          {/* <a href="javascript:;">Delete</a> */}
+        </div>
+      ),
+    }];
+
+
+    // const options = {
+    //   afterInsertRow: onAfterInsertRow,
+    //   defaultSortName: 'mobile',  // default sort column name
+    //   defaultSortOrder: 'desc',  // default sort order
+    //   page: 1,  // which page you want to show as default
+    //   sizePerPageList: [ 
+    //      { text: '2', value: 2 },  { text: '4', value: 4 },  { text: '6', value: 6 },  { text: '8', value: 8 },
+    //      { text: '10', value: 10 },  { text: '12', value: 12 }, { text: '14', value: 14 }, 
+    //      { text: 'All', value: items.length } ], // you can change the dropdown list for size per page
+    //    sizePerPage: 6,  // which size per page you want to locate as default
+    //   pageStartIndex: 1, // where to start counting the pages
+    //   paginationSize: 3,  // the pagination bar size.
+    //   prePage: 'Prev', // Previous page button text
+    //   nextPage: 'Next', // Next page button text
+    //   firstPage: 'First', // First page button text
+    //   lastPage: 'Last', // Last page button text
+    //   paginationShowsTotal: this.renderShowsTotal,  // Accept bool or function
+    //   //paginationPosition: 'top'  // default is bottom, top and both is all available
+    //    //hideSizePerPage: true, //> You can hide the dropdown for sizePerPage
+    //   // alwaysShowAllBtns: true // Always show next and previous button
+    //   // withFirstAndLast: false > Hide the going to First and Last page button
+    // };
+
 
 
     return (
-      <div> 
-       <div>
+      <div>
+        {/* <div>
         <BootstrapTable
           data={ items } insertRow={ true }
           options={ options }
           pagination>
-          {/* <TableHeaderColumn dataField='id' isKey>ID</TableHeaderColumn> */}
           <TableHeaderColumn dataField='username'  isKey>User Name</TableHeaderColumn>
           <TableHeaderColumn dataField='password'>Password</TableHeaderColumn>
           <TableHeaderColumn dataField='mobile'>Mobile</TableHeaderColumn>
@@ -299,12 +312,12 @@ const columns = [{
             defaultPageSize={10}
             className="-striped -highlight"
           />
-           </div>
+           </div> */}
 
 
-            <br/><br/><br/><br/>
-
-            <Table columns={columns} pagination={{ pageSizeOptions: ['10', '20', '30', '40'] }} dataSource={items} />
+        <br /><br /><br /><br />
+        {console.log(this.props.pgNo)}
+        <Table columns={columns} pagination={{ pageSize: 2, defaultCurrent: 100 }} dataSource={items} />
 
 
       </div>
