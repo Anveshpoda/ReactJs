@@ -1,0 +1,54 @@
+.slidecontainer{
+    width:710px;
+}
+.tbIcon{
+    margin-top: 50px;
+}
+.btBox{
+    margin-top: 50px;
+}
+.sImg{
+    margin-top: -18px;
+    margin-left: -1px;
+}
+.sIcon{
+    margin-top: 70px;
+}
+.sIcon{
+    margin-left: 20px;
+}
+.btns{
+    display: inline-block;
+    margin-top: 10px;
+}
+.bBox{
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.tbImg{
+   margin-top: -18px;
+}
+.blogchallengesmenu{
+ padding: 20px 13px 20px 13px;
+   
+}
+.allbut{
+    padding-top: 123px;
+    padding-left: 823px;
+    margin-bottom: 20px;
+}
+
+.CreateBlogsRichText{
+    width:650px !important;
+}
+.suballowesinblog .RichTextEditor__editor___1QqIU .public-DraftEditor-content {
+    overflow: auto;
+    width: 628px !important;
+}
+.suballowesvideoinblog .RichTextEditor__editor___1QqIU .public-DraftEditor-content {
+    overflow: auto;
+    width: 928px !important;
+}
+.createblogselect1{
+    margin-right:16%;
+}

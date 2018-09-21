@@ -1,0 +1,319 @@
+.marginLeft20{
+    margin-left:20px;
+}
+
+.ElectionsSubMenu {
+    padding: 20px 13px;
+}
+
+
+.ElectionsForm{
+
+}
+
+.ElectionsContainer{
+    background-color: #ffffff;
+     border: 1px solid #e5e5e5;
+     padding:20px;  
+     margin: 0px 12px 30px 12px;
+}
+
+.margnPolls
+{
+    margin-left:20px;
+    margin-top:30px;
+}
+
+.marginLeft20{
+    margin-left:20px;
+}
+
+.SubMenu {
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 10px -3px 10px 0px;
+    height: 70px;
+        border: 1px solid #e5e5e5;
+}
+
+.pageTitle{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #000 !important;
+    font-weight:600 !important;
+}
+.ElecTon1{
+    margin-right:30px;
+}
+.ElecTon img{
+height:140px !important;
+width:145px !important;
+}
+.ErrorText{
+    color:red;
+}
+.pollBackBtn{
+    float:right;
+    margin-top:13px;
+}
+.margnPolls12{
+    margin-left:20px; 
+}
+.pollingMatchNo{
+    position: relative;
+    top: -25px;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+padding-right:10px;
+}
+.Polling-Title{
+   font-size: 1.3em;
+     white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    margin: 6px 0px;
+    color: #000000;
+    /* height: 58px; */
+    line-height: 22px;  
+    width:100%;
+}
+.PollStartDate{
+    color: #000000;
+    font-size: 12px;
+    margin:10px  0px;
+}
+.PollStartoption{
+    color: #000000;
+    font-size: 12px;
+    margin:10px  0px;
+    font-weight:600;
+}
+.ElectionPollSubtext1{
+margin-bottom: 12px;
+    font-weight: 400;
+    color: rgba(49, 70, 88, 0.7);
+    cursor: pointer;
+}
+.ElectionPollSubtext{
+    font-weight: 400;
+    color: rgba(49, 70, 88, 0.7);
+}
+.polloption1image{
+    width:50px;
+    height:50px;
+    border-radius: 24px;
+    border: 1px solid #f5f5f5;
+}
+
+.polloption2image{
+    width:50px;
+    height:50px;
+    border-radius: 24px;
+    border: 1px solid #fff;
+
+}
+.OpitonsinPolling{
+    position: absolute;
+    top: 42px;
+   left:55px;
+
+}
+.OpitonsinPolling h4{
+    color:#fff;
+    padding-top:15px;
+    font-size:20px;
+}
+.PolligUniquenumber{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.ElectionCreateSelect1{
+    width:100% !important;
+}
+
+/*------*/
+.newCreateElectioSteps{
+ padding: 40px 40px 30px 25px;
+    background-color: #ffffff;
+    margin: 10px 12px 30px 12px;
+    width: 98%;
+    display:table;
+    border: 1px solid #e5e5e5;
+}
+
+.NewPollingSelecttype{
+    width:1005 !important;
+}
+.NewCreatePollBody{
+    padding:20px 0px;
+}
+.ElectionPollSubtext1 h5{
+padding:5px 0px;
+font-size:12px;
+}
+.NewCreatePollgallery{
+    padding:20px 0px;
+}
+/*----------*/
+.PollMatchsnos{
+    padding:10px;
+    margin:5px 0px;
+}
+.OpitonsinhsPolling {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.OpitonsinhsPolling h4 {
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.PollMatchstimming{
+    padding:10px 0px;
+}
+.Pollmatchsoptns{
+    padding:10px 0px;
+}
+.PollMatchsUniquen{
+padding:10px 0px;
+}
+.ElectionPollngSubtext{
+    font-size:12px;
+     font-weight: 400;
+    color: rgba(49, 70, 88, 0.7);
+}
+.ViewDatapollOptionss{
+    font-size:12px;
+}
+.PollMatchsUniqueno p{
+font-size:12px;
+}
+.PollingModals{
+    width:800px !important;
+}
+.PollingsModalbody{
+    padding-right:20px;
+}
+.Pollingshmatchno{
+position: relative;
+    float: right;
+    margin-top: -39px;
+    color: #fff;
+    margin-right: 19px;
+    font-size: 15px;
+}
+.PollMatchsUniqueno{
+    float:right;
+    padding-right:5px;
+}
+.polloption1modalimage {
+    width: 82px;
+    height: 82px;
+    border-radius: 50px;
+    border: 1px solid #f5f5f5;
+}
+.polloption2modalimage {
+    width: 82px;
+    height: 82px;
+    border-radius: 50px;
+    border: 1px solid #f5f5f5;
+}
+.PollingsModalbody h4{
+      padding-bottom: 7px;
+      padding-top:15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.PollingsModalbody h3{
+ padding-bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.PollingsModalbody h2{
+color:#ffffff;
+ padding-top: 15px;
+}
+.PollingsModalbody p{
+   border: 1px solid #f0f0f0;
+    margin-right: 10px;
+    padding: 10px;  
+}
+.Pollingparticipated{
+    padding-top:14px;
+}
+
+.Pollingparticipated p{
+    margin-bottom:14px;
+}
+.viewheaderPolltable{
+    margin-left:0px !important;
+    font-weight:600;
+    color: rgba(49, 70, 88, 0.7) !important;
+    font-size:14px;
+}
+.ViewCtable ul{
+    border-bottom:1px solid #f0f0f0;
+    padding: 10px 5px 10px 5px;
+    display:table;
+    width:100%;
+    margin-left: 0px !important;
+}
+
+.ViewCtable{
+    border:1px solid #f0f0f0; 
+    margin:30px 0px;
+
+}
+.ViewCtable ul:nth-child(7){
+border-bottom:none !important;
+
+}
+.viewPolldatatable li{
+    font-size:12px;
+}
+.viewPolldatatable li:nth-child(1){
+    font-weight:600;
+    font-size:12px;
+}
+@media (min-width: 1200px) and (max-width: 1365px){
+.OpitonsinPolling{
+    left:45px;
+}
+.polloption1image {
+    width: 45px;
+    height: 45px;
+}
+.polloption2image {
+    width: 45px;
+    height: 45px;
+}
+.NewCreateMedia{
+    margin-right:20px;
+}
+
+}
+@media (min-width: 1024px) and (max-width: 1199px){
+.OpitonsinPolling {
+    left: 30px;
+}
+
+.OpitonsinPolling h4 {
+    padding-top: 10px;
+}
+.polloption1image {
+    width: 40px;
+    height: 40px;
+}
+.polloption2image {
+    width: 40px;
+    height: 40px;
+}
+.NewCreateMedia{
+    margin-right:55px;
+}
+}

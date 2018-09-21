@@ -1,0 +1,13 @@
+.SelectMovieGenreDrop{
+    width:100% !important;
+}
+.MessageApprovalselectmem  li.ant-select-dropdown-menu-item {
+    word-break: break-all !important;
+    white-space: normal !important;
+    padding: 7px 13px;
+}
+
+.MessageApprovalselectmem  .ant-select-selection--multiple{
+    height:35px;
+    overflow-y:scroll;
+}

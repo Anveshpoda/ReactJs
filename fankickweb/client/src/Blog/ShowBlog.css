@@ -1,0 +1,44 @@
+.showblgRte{
+    border: none;
+}
+.showMetaDetails{
+    padding-top: 30px;
+}
+.showtitle{
+    padding-bottom: 20px;
+}
+.showcontent{
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.ShowBlogReactplayers{
+    width:900px !important;
+}
+.CreateBlogTypeFan20{
+    background-color:#FFFFFF;
+    border:1px solid #e5e5e5;
+    margin: 0px 14px 30px 12px !important;
+    width:98.1%;
+    display:table;
+    padding-bottom:20px;
+}
+
+@media (min-width:1200px) and (max-width:1365px){
+.ShowBlogReactplayers{
+    width:705px !important;
+}
+.CreateBlogTypeFan20{
+     width:97.6%;
+}
+
+}
+
+  @media (min-width:1024px) and (max-width:1199px){
+.ShowBlogReactplayers{
+    width:600px !important;
+}
+.CreateBlogTypeFan20{
+   margin: 0px 13px 30px 12px;
+   width:97.3%;
+}
+  }

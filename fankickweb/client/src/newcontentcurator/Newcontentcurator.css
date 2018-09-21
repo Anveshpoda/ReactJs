@@ -1,0 +1,211 @@
+.topmenucontnet{
+padding: 20px 20px;
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    margin: 30px 13px 0px 15px;
+}
+.selectallCheck {
+    padding: 5px 5px 5px 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 25px 15px 15px 15px;
+}
+.selectallCheck12 {
+    padding: 5px 5px 5px 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 25px 15px 15px 15px;
+    width:50%;
+}
+.CuratorRoes{
+    margin: 10px 0px 30px 0px;
+}
+.CuratorRoes {
+    margin: 10px -8px 30px 3px;
+}
+.CuratorRoes {
+    margin: 10px -10px 30px 0px;
+}
+.selectallCheck13{
+        padding: 5px 5px 5px 5px;
+    margin: 21px 15px 15px 15px;
+}
+.selectallCheck131{
+       padding: 5px 5px 5px 5px;
+    margin: 21px 15px 15px 15px; 
+}
+.selectallCheck14{
+        padding: 5px 5px 5px 5px;
+    margin: 21px 15px 15px 15px;
+}
+.ContentCuratornbody{
+  padding: 20px 20px;
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    margin: 30px 13px 0px 15px;
+    display:table;
+      width: 98.5%;
+}
+.newContentIds{
+    padding-left:5px;
+}
+.Contentlibbtn{
+    float:right;
+}
+.NewCuratorselects{
+    padding-right:25px;
+}
+.Toplibardbtn{
+    float:right;
+}
+.Checkcontnetnewcurat{
+    position:absolute;
+    top:-2px;
+}
+.Contentcuratnewfootmain{
+    border-top:1px solid #ccc;
+}
+.NesContentFootmain:nth-child(4){
+float:right;
+width:20%;
+}
+.NesContentFootmain{
+    width:26%;
+}
+.NesContentFootmain h4{
+    font-size:15px;
+    padding:5px;
+}
+.Contentcuratnewfoothead{
+    padding:10px 5px 10px 5px;
+}
+.contentuserprofile{
+    width:40px !important;
+    height:40px !important;
+    border-radius:48px;
+}
+.contentuserName{
+    font-weight:500;
+    color:#000;
+    font-size:15px;
+}
+.contentuserpackdate{
+    font-weight:500;
+    color:grey;
+    font-size:15px;  
+}
+.contentuserLocation{
+    font-weight:500;
+    color:#000;
+    font-size:15px;    
+}
+.Contentpackssstitle{
+    padding:10px 5px 10px 5px;
+}
+/*--------*/
+.contentcurtation-imagevideo {
+    padding: 15px 0px;
+    display: table;
+    width: 100%;
+}
+.contentcurat-fanclubcheck{
+    float:right;
+}
+.Contentfanclub-category{
+    float:right;
+}
+.contentcuartfanc-clubimgli{
+    padding:10px 5px 10px 15px !important;
+}
+.contentcuartfanc-clublis{
+      padding:10px 5px 10px 5px;
+}
+.curatorfancusername{
+    color:#000;
+    font-size:15px;
+    font-weight:500;
+}
+.createdbyuserfancc{
+       color:grey;
+    font-size:15px;
+    font-weight:500; 
+}
+.contenfanclub-location{
+     color:grey;
+    font-size:15px;
+    font-weight:500;   
+}
+.contencuratfanc-members{
+    color:#000;
+    font-size:15px;
+    font-weight:500;
+}
+.Contentfanclub-category h4{
+    color:#000;
+    font-size:15px;
+    font-weight:500;
+}
+.contnetcuratfeaturediconsselectHigh{
+    color:#DA3707;
+    float:right;
+    padding-right:25px;
+}
+.contnetcuratfeaturediconsselectLow{
+    color:#FADC1C;
+    float:right;
+    padding-right:25px;
+}
+.contnetcuratfeaturediconsselectMedium{
+    color:#F38738;
+    float:right;
+    padding-right:25px;
+}
+.selectallCheck14 .ant-select-selection{
+height:30px !important;
+overflow-y:scroll;
+}
+.selectallCheck13 .ant-select-selection{
+height:30px !important;
+overflow-y:scroll;
+}
+.curatorlibsubmenu{
+    float:right;
+}
+.curatorlibray{
+    float:right;
+}
+.Blockusericon{
+ transform:rotate(-45deg);
+}
+.Contentlibblockuserbtn{
+     color: #783293 !important;
+    border-color: #783293 !important;
+    background-color: #ffffff !important;
+}
+.Curatorlibrarybody{
+      padding: 20px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    margin: 30px 13px 0px 15px;
+    display:table;
+      width: 98.5%;
+}
+.Contencuratliblabels{
+    font-size: 11px !important;
+    font-weight: 700;
+    color: #717171 !important;
+}
+.Contentlibbulckcol{
+    border-left: 1px solid #e5e5e5;  
+    padding:0px 0px 0px 25px;
+}
+.BlockUserProfile{
+    width:45px;
+    height:45px;
+    border-radius:50px;
+}
+.BlockuserprofName{
+    padding-top:15px;
+}

@@ -1,0 +1,356 @@
+.CFunClubupload img{
+  border-style: none;
+    width: 137px;
+    height: 138px;
+    margin-top: -20px;
+}
+.CFunClubupload .anticon-plus{
+    padding-top: 20px;
+    vertical-align: bottom !important;
+}
+.cfunuploadaudio{
+  margin-top:-100px;
+  width:25%;
+}
+.Createuploadgif{
+  margin-bottom:70px;
+}
+.CfunBtn{
+  margin-top:-44px;
+}
+.Cfuntext TextArea{
+  margin-bottom:20px;
+}
+.CFunClubupload .uploaderimage {
+    width: 140px !important;
+    height: 140px !important;
+    margin-bottom:50px;
+    margin-top:-20px;
+
+}
+.DemoFun a:hover{
+  border-bottom:1px solid grey;
+}
+.DemoFun a{
+    color: hotpink;
+   
+}
+.DemoFun a:active {
+  color: red;
+}
+.DemoFun p{
+ font-size:20px;
+  cursor: pointer;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.funclubhomeheader{
+  margin-left:15px;
+  margin-bottom:30px;
+  width:98%;
+}
+ .upImagefun img{
+
+   width: 130px;
+    height: 136px;
+    margin-top: -20px;
+ }
+
+ .addbuttonColor{
+color:#783293;
+border-bottom: 2px solid #783293;
+ }
+ .CreateFunClubHeader{
+    margin-top: 10px;
+ }
+ .FunClubSelect{
+   margin-bottom:15px;
+ }
+ /*.CreateFunClubsubHeader{
+   padding: 10px;
+   padding-left:0px !important;
+ }*/
+ .FunClubsBackButtn{
+   float:right;
+     background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+    margin-top: 0px;
+ }
+ .CreatefunBody{
+    margin-top: 10px;
+ }
+ .FunClubsSubBody{
+    margin-bottom: 10px;
+ }
+ .FunClubSelect h4{
+    margin-bottom:7px;
+    padding-left:0px;
+ }
+ .CreateNewFunClub h4{
+ margin-bottom: 10px;
+ }
+ .CreatenewFunClubbtn{
+   margin-top:17px;
+ }
+ .FunClubCategory{
+   margin-top:10px;
+ }
+ FunClubCategory1{
+    margin-bottom:10px;
+ }
+ .funClubSelectCategory h4{
+  margin-bottom:10px;
+ }
+ .funClubSelectSubCategory h4{
+   margin-bottom:10px;
+ }
+ .funClubSelectSubCategory ,  .funClubSelectCategory{
+   padding-bottom:10px;
+ }
+ .FunClubImage{
+   margin-top:30px;
+ }
+ .Createuploadgif{
+   margin-top:70px;
+ }
+ .FunClubsAudios{
+   margin-top:40px;
+ }
+ .funClubsUploadgifs{
+   margin-top:40px;
+ }
+ .FunClubsInner{
+    margin-top:10px;
+ }
+ .FunClubsInner2{
+   margin-bottom:10px;
+ }
+ .couponsmodalB .ant-modal-body {
+   top:20px;
+    width: 820px !important;
+}
+/* .FunClubspageHeader{
+margin-bottom:15px;
+ padding:15px 0px;
+  border-bottom:1px solid #f0f0f0;
+} */
+/*.FunClubspageHeader{
+   padding:20px 15px;
+  }*/
+.FunClubsPagesBtn{
+  float:right;
+  background-color: #783293 !important;
+  border-color: #783293 !important;
+  height: auto !important;
+  padding: 8px 12px !important;
+  font-size: 13px;
+
+}
+.funclubhomeheader{
+margin-bottom:30px;
+ padding:15px 0px;
+  border-bottom:1px solid #f0f0f0;
+}
+.VieallInFanClubpage{
+  float:right;
+}
+.funClubViewallpageheader{
+margin-bottom:15px;
+ padding:15px 0px;
+  border-bottom:1px solid #f0f0f0;
+}
+.FunpageTitle{
+  color:#000;
+  font-size: 16px;
+  padding-top:5px;
+  font-weight:600;
+}
+.CreateFunClubsubHeader{
+  padding-top:3px;
+  color:#000;
+  font-size:16px;
+  padding-top:8px;
+  font-weight:800;
+}
+.funclubtypelist{
+  margin-top: 10px;
+}
+/*.funClubPopupsImgs{
+  cursor:pointer;
+}*/
+.funlistimagesAll{
+   cursor:pointer;
+}
+.CreateNewFunclubDrop{
+  width:18px;
+  height:18px;
+
+}
+.DropDownoption, .DropDownoption:hover{
+ background-color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+width:100%;
+font-weight:600;
+border-top:1px solid #d9d9d9;
+color:#783293;
+}
+/*.DropDownlistName{
+  padding-left:8px;
+}*/
+
+/*.DropDownlistName{
+  margin-top:-10px;
+}*/
+.FunClubsCreate{
+    font-size: 11.4px !important;
+    /* margin: 5px auto !important; */
+    font-weight: 700;
+    color: #717171;
+    margin-bottom:7px;
+}
+.FunClubCategory1{
+  margin-bottom:11px;
+}
+.FunClubCreateDescription{
+  margin-top:-30px !important;
+}
+.createsubFanClub{
+  padding-bottom:7px;
+}
+/*.ant-select-dropdown-menu{
+
+  margin-bottom: 40px;
+}*/
+
+.FunClubSelect .ant-select-dropdown-menu{
+  height:235px;
+}
+.FunClubsSubmenu{
+   padding: 17px 20px;
+    background-color: #ffffff;
+    margin:30px 13px 30px 13px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.createfunClubSubMenu{
+   padding: 17px 20px;
+    background-color: #ffffff;
+    margin:30px 12px 30px 12px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.funClubsbody{
+  background-color: #ffffff;
+   padding: 17px 20px;
+  border: 1px solid #e5e5e5;
+  margin:0px 12px 0px 12px;
+}
+.FunClubmodalScroll{
+   height:68vh;
+    padding:0px 10px;
+}
+.FunClubsListAllMenu{
+  padding: 15px 20px;
+    background-color: #ffffff;
+    margin: 30px 0px 30px 0px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.funClubsRen{
+  padding:15px 0px 10px 0px;
+   background-color: #ffffff;
+   margin-bottom:30px;
+}
+.FanClubsViewMaincolum{
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 30px 0px 30px 0px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+
+.selectPoints{
+  padding-top:8px;
+}
+
+
+@media (max-width: 1920px) and (min-width: 1200px){
+.upImagefun .avatar-uploader > .ant-upload {
+    width: 140px !important;
+    height: 140px !important;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+}
+@media (max-width: 1600px) and (min-width: 900px){
+.upImagefun .avatar-uploader > .ant-upload {
+    width: 140px !important;
+    height: 140px !important;
+    margin-top: -1px;
+}
+}
+
+
+@media (max-width: 1366px) and (min-width: 768px){
+.upImagefun .avatar-uploader > .ant-upload {
+    width: 140px !important;
+    height: 140px !important;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+}
+
+@media (max-width: 1280px) and (min-width: 768px){
+
+.upImagefun .avatar-uploader > .ant-upload {
+    width: 140px !important;
+    height: 140px !important;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+}
+
+@media (max-width: 1200px) and (min-width: 768px){
+
+.upImagefun .avatar-uploader > .ant-upload {
+    width: 140px !important;
+    height: 140px !important;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+
+.upImagefun .avatar-uploader > .ant-upload {
+    width: 140px !important;
+    height: 140px !important;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.CFunClubupload .uploaderimage{
+  border:0px !important;
+}
+.FunClubmodalScroll{
+   height:58vh !important;
+    padding:0px 10px;
+}
+}
+#noFunclubs{
+  text-align: center;
+  font-size: 20px;
+}

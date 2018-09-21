@@ -1,0 +1,391 @@
+@import '../css/common/colors.css';
+@import '../css/common/typography.css';
+.cardBody{
+    padding: 15px;
+}
+.challengeCard{
+    border:1px solid #ccc;
+}
+.list-inline{
+    padding-left: 0;
+margin-left: -5px;
+list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+.cardFooter{
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+
+.challengesmenu{
+    padding: 20px 13px;
+}
+
+textarea{
+resize: none;
+}
+
+.floatRight{
+    float: right;
+}
+.copyRight{
+    padding: 12px !important;
+}
+.challengesnavigation {
+  padding: 0px !important;
+}
+
+
+
+.logo {
+  font-size: var(--fontHuge);
+}
+
+.active {
+  color: var(--colorDodgerBlue);
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.ant-upload-select-picture-card {
+width:300px;
+height: 300px;
+}
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+.antColLg-8{
+    width:33%;
+}
+.antColLg-12{
+    width:50%;
+}
+.antColLg-4{
+    width:16%;
+}
+.blue{
+    color: #783293 !important;
+}
+.castImg{
+    width:20px;
+}
+.h6Font{
+    font-size: 13px !important;
+    margin: 5px auto !important;
+}
+.cardContent{
+    padding: 0px 15px;
+}
+.clear{
+    clear: both;
+}
+.marginRight356{
+    margin-right:27px;
+}
+
+.marginRight35{
+    margin-right:27px;
+}
+
+.ImgCheckBox{
+    position: absolute;
+    top:12%;
+}
+
+
+.ImageCheckBox{
+    position: absolute;
+    top:-6%;
+}
+
+
+
+
+.deletIcon{
+    font-size:20px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}
+
+.marginRight38{
+    margin-right:38px;
+}
+
+.margin20{
+    margin:20px;
+}
+
+.marginRight15{
+    margin-right:15px;
+}
+
+.marginRight5{
+margin-right:5px !important;
+}
+
+.RedStar{
+    color:red;
+}
+
+
+.subSelctCatgryFun2Win{
+    margin:25px 15px 25px 0px;
+}
+.Createfun2winsubmenu{
+    padding: 18px 0px 0px 24px;
+background-color: #ffffff;
+margin: 30px 11px 20px 13px;
+height: 70px;
+border: 1px solid #e5e5e5;
+}
+
+/*.margincatgrybtn{
+    margin:25px 0px 25px 0px;
+}*/
+.CreatefunwinBodycard{
+    padding: 18px 7px 0px 24px;
+   background-color: #ffffff; 
+   border: 1px solid #e5e5e5;
+   margin: 10px 14px 20px 13px;
+    width: 98%;
+}
+
+
+.CreatefunwinBlock{
+    padding: 18px 7px 0px 24px;
+   background-color: #ffffff; 
+   border: 1px solid #e5e5e5;
+   margin: 10px 14px 20px 30px;
+    width: 97%;
+    height:auto;
+}
+
+
+
+.margincatgry1{
+    margin-right:13px;
+}
+
+.paddingleft15{
+    padding-left:15px;
+}
+
+
+.marginTop20{
+   margin-top:20px;
+}
+
+.marginLeft20{
+    margin-left:20px;
+}
+
+.padding20{
+    padding: 20px;
+}
+
+.marginBottom25{
+    margin-bottom: 25px;
+}
+
+.createFun2Win{
+    height: auto !important;
+    padding: 8px 12px !important;
+    float:right;
+}
+.cfuntowinQbtn .createFun2Winm{
+  
+    height: auto !important;
+    padding: 8px 12px !important;
+    float:right;
+    
+   
+}
+.btnRight{
+    float:right;
+}
+
+.DeltRight{
+        float:right;
+        border:none !important;
+        margin-bottom: 15px;
+        color:red;
+}
+#savePack1{
+	    padding-right: 30px !important;
+	}
+#deletePack1{
+	    float: right;
+	    position: absolute;
+	    right: 20px;
+	    bottom: 60px;
+	}
+
+
+.borderTab .ant-tabs-nav .ant-tabs-tab{
+    border:1px solid #ccc;
+    padding:10px !important;
+}
+
+.ant-tabs-bar{
+
+}
+
+
+
+.marginTop20{
+    margin-top:20px;
+}
+
+.ant-btn .AddPlusIcon{
+  color: #a0a0a3;
+  color:#fff;
+}
+.ant-checkbox-wrapper + span, .ant-checkbox + span{
+    padding: 0px !important;
+}
+.createerrors{
+    color:red;
+}
+.createerror{
+    margin-top:8px;
+    color:red !important;;
+}
+.cfuntowinquestions .ant-radio-wrapper{
+height: 46px !important;
+}
+.cfuntowinquestions p{
+    padding-left:30px;
+}
+.mrgleft10{
+    margin-left:10px;
+}
+
+
+.QuestionsFormheight{
+    height:500px;
+}
+
+.mrgnIconleft10{
+    color: #a0a0a3;
+    margin-left:10px;
+}
+.mrgnIconleft40{
+      color: #a0a0a3;
+    margin-left:40px;
+    margin-top:25px;
+
+}
+.cfunswinup{
+padding-bottom: 40px;
+}
+.mrgnIconleft46{
+	        color: #a0a0a3;
+	    margin-left:10px;
+	    padding-top:32px;
+	}
+	.mrgnIconleft45{
+	        color: #a0a0a3;
+	    margin-left:10px;
+	    padding-top:23px;
+	}
+	.cfuntowinadd{
+	    padding-top:24px;
+	}
+	/*.marginright35{
+	    margin-right:39px;
+	}*/
+	.cfunguploadimg img{
+	    height: 147px;
+	    width: 148px;
+	    border-radius: 5px;
+	}
+
+    .cfunguploadimgh .avatar-uploader{
+        width:150px !important;
+        height:110px !important;
+
+    }
+
+.cfunguploadimgh  img{
+    width: 147px;
+    border-radius: 6px;
+    height: 107px;
+}
+.fun2wincQuestions{
+   font-size:14px;
+    font-weight:600;
+}
+.fun2WinQuestionError{
+color:red;
+
+}
+.fun2WinQuestionfilanswer{
+ color: red;
+  padding:5px;
+   text-align:center;
+}
+.cfuntowinaddsbtns{
+        padding: 0px;
+    margin-top: -50px;
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+.fun2winuploadcombination .avatar-uploader {
+    height: 96px;
+    width: 96px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+.cfunguploadimg .avatar-uploader{
+    width: 113px;
+    height: 113px;
+}
+.cfunguploadimg  img{
+    height: 110px !important;
+    width: 110px !important;
+    border-radius: 5px;
+}
+.cfunguploadimg .anticon-picture{
+    padding-right:25px;
+    padding-bottom:30px;
+}
+.marginuploadRight35{
+    margin-right:20px;
+}
+
+
+}

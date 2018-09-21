@@ -1,0 +1,438 @@
+.HeadingsTab{
+    padding:20px;
+}
+
+.HeadingsTabFancoins{
+     padding:5px;
+}
+
+.ant-col-lg-fancoinsBox{
+width:50%;
+float:left;
+}
+ .fansCoinsConfigtabs .addbuttonColor{
+color:#783293;
+border-bottom: 2px solid #783293;
+font-size:12px;
+ }
+ 
+.marginLeft0{
+    margin-left:0 !important;
+}
+
+ .fansCoinsConfigtabs p{
+     font-size:12px;
+font-weight:700;
+ }
+ .fansCoinsConfigtabs p{
+     cursor:pointer;
+ }
+
+.TabsTxtOffers {
+    color:#cccccc !important;
+    font-weight: normal !important;
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+#fancoinstab2{
+    width:100px;
+    margin-left:50px;
+}
+#fancoinstab3{
+    width:83px;
+       margin-left:50px;
+}
+.sideHeading{
+    font-weight: 600;
+    color:#999;
+    }
+
+.sideHeading .ant-switch{
+    margin-right:15px;
+}
+
+.sideHeading > span{
+    margin-right:15px;
+}
+
+ul.updateAlert {
+    list-style-type: none;
+    margin: 0;
+     padding:20px;
+}
+
+li.updateAlert  {
+    display: inline;
+    padding-left:10px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+.paddingLeft20{
+    padding-left:20px;
+}
+
+.FanCoinsLabel{
+ color: #717171 !important;    
+font-size: 11px !important;
+    font-weight: 700;
+}
+
+/*.NewTabbORDER .ant-tabs-bar{
+border: 0px;
+}*/
+#fancoinstab3{
+    color:#717171;
+}
+
+
+.SubHeadingsTab{
+    padding:12px 12px 12px 0;
+}
+
+.ant-tabs-nav .ant-tabs-tab{
+        font-size: 13px;
+    font-weight: 700;
+}
+
+.ant-input-number{
+    width:80px;
+}
+
+
+
+.SubHeadingsTabText{
+    padding:14px 12px 0 0;
+    font-size:14px;
+  font-weight:500;
+}
+
+.Marginleft15{
+    margin-left:15px;
+}
+
+.fontWeightBold .ant-form-item-label label{
+    font-weight: 500 !important;
+    color:#000 !important;
+    font-size:13px !important;
+}
+
+.fontWeightBoldBlack .ant-form-item-label label{
+    font-weight: 500 !important;
+    color:#000 !important;
+    font-size:13px !important;
+    margin-top: 10px !important;
+}
+
+
+.mrgTop10{
+    margin-top:10px;
+}
+
+/*.fontWeightBoldExpry 
+{
+    margin-left:20px;
+}*/
+
+
+.updateBtn{
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    float:right;
+}
+
+.updateButn{ 
+   background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 20px !important;
+    float:right;
+    margin-top:15px;
+    margin-right:42px;
+}
+
+.updateButnFun2winChallanges{
+       background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 20px !important;
+      margin-top:15px;
+    margin-right:42px;
+    margin-bottom: 20px;
+}
+
+.updateButnFcontest{
+
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 20px !important;
+    float: right;
+    margin-top: 7px;
+    margin-right: 42px;
+    margin-bottom: 10px;
+}
+
+.marginLeft20{
+    margin-left:30px !important;
+}
+
+
+.FancoinsborderBox .ant-card .ant-card-head {
+ border:none;
+
+}
+
+.FancoinsborderBox .ant-card{
+ border:none;  
+}
+.pageTitlefancoin{
+
+    font-size: 16px;
+    margin-top: 23px;
+    color:#000 !important;
+    font-weight:600 !important;
+}
+
+.SubMenuFanCoinss {
+    padding: 1px 20px 0px 20px;
+    background-color: #ffffff;
+    margin: 30px 0px 0px -9px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    width: 99.8%;
+}
+
+.mrgLeft30{
+    margin-left:30px;
+}
+
+.fanCoinsResetConifg{
+    margin-right:1px;
+    float:right;
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+ .FancoinsborderBox .ant-card-head .ant-card-head-title{
+
+   
+}
+
+
+ .FancoinsborderBox .ant-card-head {
+ padding:0 24px;
+ border-bottom: none;
+ }
+
+.MarginTop15{
+    margin-top:15px;
+}
+
+
+.FancoinsborderBox{
+    border:1px solid #d9d9d9;
+    background-color:#f5f5f5;
+    margin-top:20px;
+    border-radius: 2px;
+}
+
+.FancoinsborderBoxRight .ant-card-bordered{
+    border:none !important;
+    background-color:#f5f5f5;
+    padding:10px;
+    margin-left:34px;
+     margin-top:20px;
+      border-radius: 5px;
+}
+
+.ant-tabs-vertical.ant-tabs-left > .ant-tabs-bar .ant-tabs-tab{
+    text-align: left;
+       background-color: #f5f5f5;
+    margin-bottom: 0;
+    border-bottom: 1px solid #d2d2d2;
+    padding:12px 55px 12px 20px !important;
+}
+
+.ant-tabs-vertical.ant-tabs-left > .ant-tabs-bar {
+    float: left;
+    border: 1px solid #e9e9e9;
+     margin-right: 0;
+    margin-bottom: 0;
+}
+
+
+
+.ant-tabs-nav .ant-tabs-tab:hover, .ant-tabs-nav .ant-tabs-tab-active{
+     background-color:#fff !important; 
+}
+
+
+.verticlTabFancoins  .ant-tabs-nav .ant-tabs-tab{
+padding:30px 30px;
+          }
+
+
+/*.borderColorTabs .ant-tabs-nav-container{
+    border:1px solid #999;
+    
+}*/
+
+
+.fancoinsborderColorTabs{
+    padding-left:19px;
+}
+
+
+.mrgnBottom15{
+    margin-bottom: 15px;
+}
+
+.MarginTopBtm12{
+    margin-bottom: 12px;
+    margin-top:20px;
+}
+#fancoinstab1:hover ,#fancoinstab2:hover{
+    color:#783293;
+}
+
+.chckBOXSharePadding .ant-checkbox-wrapper + span, .ant-checkbox + span{
+    padding: 15px !important;
+}
+
+.fancoinsrferfriend{
+    padding-bottom:20px;
+}
+.fancoinsrferfriend1{
+    padding-bottom:20px;
+
+}
+
+.updaterefraFrndButn{
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 20px !important;
+       margin-top:15px;
+    margin-right:104px;
+}
+
+
+.mrgnLeft15{
+     margin-left:15px;
+}
+
+
+.MarginTop20{
+    margin-top:20px;
+}
+.marginLeft30{
+    margin-left:30px;
+}
+
+.btnRight{
+    float:right;
+    margin:20px;
+}
+
+
+.ant-tabs-nav .ant-tabs-tab{
+    padding:8px 20px 8px 0px  !important;
+}
+
+.paddingRadioBtn{
+    padding: 0 28.4px !important;
+}
+
+
+
+/*.SubMenuChallengesSteps{
+      padding: 40px 40px 30px 25px;
+    background-color: #ffffff;
+    margin: 10px 12px 0px 12px;
+    height: 670px;
+        border: 1px solid #e5e5e5;
+    
+}*/
+
+.SubMenufanCOINSStepshs{
+      padding: 40px 40px 30px 0px;
+    background-color: #ffffff;
+    margin: 30px 12px 30px 12px;
+    height: 670px;
+        border: 1px solid #e5e5e5;
+    
+}
+
+
+
+
+
+.fontWeightBoldExpry   .ant-form-item-label label
+{
+    margin-left:0;
+    color:#000 !important;
+    font-size:13px !important;
+    margin-bottom:10px;
+    font-weight:500;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+.ant-col-smResolution768{
+    width:23% !important;
+}
+
+
+
+
+
+}
+     
+      /*#fancoinstab1{
+font-size:12px;
+
+ }
+  .fansCoinsConfigtabs .addbuttonColor{
+color:#783293;
+border-bottom: 2px solid #783293;
+font-size:12px;
+
+
+ }
+ .fansCoinsConfigtabs p {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.fontWeightBoldExpry  
+{
+    margin-left:0;
+}*/
+
+
+
+
+
+  

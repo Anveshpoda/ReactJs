@@ -1,0 +1,646 @@
+.SocialMediamenu{
+    padding: 20px 13px;
+}
+
+.SocialMediaContestSubMenu {
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 10px -3px 0 0;
+    height: 70px;
+        border: 1px solid #e5e5e5;
+}
+
+.SocialMainMediamenu{
+     padding: 20px 7px; 
+}
+
+.SocialMediaContestThemeBg {
+    background-color: #fff;
+  margin: 0px 23px 20px 27px;
+    border: 1px solid #e5e5e5;
+    padding:20px;
+}
+
+
+a.ViewDtlsLink {
+    color:#783293 !important;
+   text-decoration: underline !important;
+}
+
+.ViewDtlsLink {
+    color:#783293 !important;
+border: none !important;
+
+}
+.ViewDtlsLink:hover , .ViewDtlsLink:active ,.ViewDtlsLink:focus {
+    outline:none !important;
+    box-shadow:none !important;
+}
+/*
+.MrgnLeft70 {
+    margin-left: 70px;
+}*/
+.MrgnLeft701 {
+    float: right;
+}
+.uploaderSocialContest .avatar-uploader > .ant-upload {
+  width: 380px !important;
+  height: 120px !important;
+}
+
+.uploaderSocialContest .ant-upload.ant-upload-select{
+   width: 380px !important;
+  height: 120px !important;
+  margin-right:20px;
+}
+.uploaderSocialContest .avatar-uploader-trigger{
+    width: 380px !important;
+  height: 120px !important;
+  margin-right:20px;
+}
+
+.mrgRht30{
+    margin-right:30px;
+}
+
+.SocialMediaViewDetails .ant-modal-title{
+    font-size:14px;
+       text-align: center;
+    font-weight:400;
+    color:#1a173b;
+
+}
+
+.DeclareWinnersBtn {
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+   
+}
+
+.DeclareWinnersBtn .ant-btn{
+  border:none !important;  
+}
+
+  .ant-table-thead > tr.ant-table-row-hover >td , .ant-table-tbody > tr.ant-table-row-hover >td,
+ant-table-thead > tr:hover >td, 
+.ant-table-tbody >tr:hover > td{
+background: #fff;
+}
+
+ .SocialMediaContestsTable .ant-table-thead > tr > th {
+    background: white;
+     color: grey;
+    border-bottom: 1px solid #ededed;
+      padding-top:20px;
+}
+
+
+.SocialMediaIcon{
+    font-size: 14px;
+    color:#783293 !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.BulltList ul{
+list-style-type: circle !important;
+}
+
+
+
+
+.GreyTxt{
+    color:grey;
+}
+
+.marginbottom20{
+    margin-bottom: 20px;
+}
+
+.BorderBottomGrey{
+    padding-bottom:10px;
+    width:100%;
+    border-bottom: 1px solid #cccccc;
+    font-size:18px;
+    font-weight:500;
+}
+
+.StepsMargn25{
+margin-top:25px;
+}
+
+.StepsMargnBtm20{
+    margin-bottom: 20px;
+}
+
+.SocialContestsSteps .steps-content {
+
+height:auto;
+}
+
+.BtnRight{
+    float: right;
+}
+.Socialmediacontestbanimg12 img {
+ width: 100% !important;
+height: 167px !important;
+}
+.socialbanimgs{
+    width:150px !important;
+    height:150px !important;
+}
+.Socialmediacontestbanimg12 .avatar-uploader{
+    border:none !important;
+    width: 100% !important;
+    height: 100% !important;
+
+}
+.Socialmediacontestbanimg12 .avatar-uploader > .ant-upload {
+    width: 100% !important;
+    height: 170px !important;
+}
+.Socialmediacontestbanimg12  .ant-upload{
+padding:0px !important;
+
+}
+.Socialmediacontestbanimg12 .anticon.anticon-plus.avatar-uploader-trigger {
+    width: 530px;
+    height: 170px;
+}
+/*--------------------*/ 
+.Createsocialmcontests{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 0px 30px 27px;
+    border: 1px solid #e5e5e5;
+}
+.fbcontestloctions .ant-select-selection {
+    border-radius: 0px;
+    height: 35px;
+    overflow-y: scroll;
+}
+.SocialmEntercouponCost .ant-input-number {
+    width: 34%;
+}
+.SocialMNumberscountss .ant-input-number {
+    width: 39%;
+}
+.FntssShortSocialm{
+font-size: 11px !important;
+font-weight: 700;
+color: #717171 !important;
+line-height: 32px;
+}
+.SocialMedLabels{
+font-size: 11px !important;
+font-weight: 700;
+color: #717171 !important;
+line-height: 32px;
+}
+.socialmElists{
+    padding:10px 0px 10px 0px;
+}
+.FbcontestTopsidebars{
+    float:right;
+}
+.FbcontestcreateTopsidebars{
+    float:right;
+}
+.fun2winSelectcategry42{
+    padding-top:15px;
+    padding-right:25px;
+}
+.socialmediacontestpagination {
+    text-align: center;
+}
+.ViewDtlsLink:active ,.ViewDtlsLink:hover ,.ViewDtlsLink:focus{
+    box-shadow:none !important;
+    outline:none !important;
+    border:none !important;
+}
+.fun2winSelectcategry456{
+    padding-top:12px;
+    padding-right:25px;
+}
+.contestcaptiontext{
+    word-break: break-all;
+}
+.ContestViewdesct{
+    word-break: break-all;
+}
+.termsandcondifbcontestview{
+     word-break: break-all;
+}
+.fbcontestviewbody {
+    padding: 0px 35px 0px 10px;
+}
+.contestfbviewdecription, .fbcontestviewcaptionid , .contestfbviewstartenddate{
+    padding-top: 15px;
+}
+.termsandcondifbcontestview{
+    color:grey;
+}
+.ContestViewdesct{
+    color:grey;
+}
+.contestfbtermsandhead{
+    padding-bottom:7px;
+   
+}
+.SocialMediaContestsTable14 td:nth-child(1){
+width:7%;
+}
+.SocialMediaContestsTable14 td:nth-child(2){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(3){
+width:8%;
+}
+.SocialMediaContestsTable14 td:nth-child(4){
+width:37%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable14 td:nth-child(5){
+width:11%;
+}
+.SocialMediaContestsTable14 td:nth-child(6){
+width:11%;
+}
+.SocialMediaContestsTable14 td:nth-child(7){
+width:8%;
+}
+
+/*-------------tabel2----------------*/
+.SocialMediaContestsTable13 td:nth-child(1){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(2){
+width:10%;
+}
+.SocialMediaContestsTable13 td:nth-child(3){
+width:8%;
+}
+.SocialMediaContestsTable13 td:nth-child(4){
+width:37%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable13 td:nth-child(5){
+width:11%;
+}
+.SocialMediaContestsTable13 td:nth-child(6){
+width:11%;
+}
+.SocialMediaContestsTable13 td:nth-child(7){
+width:8%;
+}
+
+.winningdeclaressocialcontest .Socialmediadecalrewinbtn{
+  cursor: auto;
+  color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+    box-shadow:0px !important;
+    outline: none !important;
+}
+.contestsocial , .contestsocial .item{
+        display: inline-block;
+    text-decoration: none;
+    padding: 9px 0px 8px 16px !important;
+    color: var(--colorBlack);
+    text-decoration: none !important;
+    font-size: 13px;
+}
+.smcontestpageTitle{
+    font-size:14px;
+    font-weight:500;
+    padding:16px 0px 0px 0px;
+}
+@media (min-width: 1600px) and (max-width: 1920px){
+.MrgnLeft70 {
+    margin-left: 10.3%;
+}
+.MrgnLeft702 {
+    margin-left: 7.5%;
+}
+/*-----table1------*/
+.SocialMediaContestsTable12 td:nth-child(1){
+width:8%;
+}
+.SocialMediaContestsTable12 td:nth-child(2){
+width:11%;
+}
+.SocialMediaContestsTable12 td:nth-child(3){
+width:12%;
+}
+.SocialMediaContestsTable12 td:nth-child(4){
+width:18%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable12 td:nth-child(5){
+width:11%;
+}
+.SocialMediaContestsTable12 td:nth-child(6){
+width:10%;
+}
+.SocialMediaContestsTable12 td:nth-child(7){
+width:10%;
+}
+.SocialMediaContestsTable12 td:nth-child(8){
+width:9%;
+}
+}
+@media (min-width: 1366px) and (max-width: 1599px){
+.fbconteststartdateenddatess .MrgnLeft702 {
+        margin-left:54px;
+}
+.SocialMNumberscountss .ant-input-number {
+    width: 28%;
+}
+.SocialmEntercouponCost .ant-input-number {
+    width: 40%;
+}
+.SocialMediaContestsTable14 td:nth-child(1){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(2){
+width:13%;
+}
+.SocialMediaContestsTable14 td:nth-child(3){
+width:12%;
+}
+.SocialMediaContestsTable14 td:nth-child(4){
+width:30%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable14 td:nth-child(5){
+width:12%;
+}
+.SocialMediaContestsTable14 td:nth-child(6){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(7){
+width:9%;
+}
+
+/*-----table1------*/
+.SocialMediaContestsTable12 td:nth-child(1){
+width:8%;
+}
+.SocialMediaContestsTable12 td:nth-child(2){
+width:12%;
+}
+.SocialMediaContestsTable12 td:nth-child(3){
+width:12%;
+}
+.SocialMediaContestsTable12 td:nth-child(4){
+width:18%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable12 td:nth-child(5){
+width:11%;
+}
+.SocialMediaContestsTable12 td:nth-child(6){
+width:10%;
+}
+.SocialMediaContestsTable12 td:nth-child(7){
+width:10%;
+}
+.SocialMediaContestsTable12 td:nth-child(8){
+width:9%;
+}
+
+/*-------------tabel2----------------*/
+.SocialMediaContestsTable13 td:nth-child(1){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(2){
+width:10%;
+}
+.SocialMediaContestsTable13 td:nth-child(3){
+width:11%;
+}
+.SocialMediaContestsTable13 td:nth-child(4){
+width:25%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable13 td:nth-child(5){
+width:8%;
+}
+.SocialMediaContestsTable13 td:nth-child(6){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(7){
+width:8%;
+}
+}
+@media (min-width: 1200px) and (max-width: 1365px){
+.SocialMNumberscountss .ant-input-number {
+    width: 33%;
+}
+.SocialmEntercouponCost .ant-input-number {
+    width: 45%;
+}
+.fbcontsetmaintitle .pageTitle{
+ font-size:12px;
+ padding-top:4px;
+}
+.SocialMediaContestsTable14 td:nth-child(1){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(2){
+width:13%;
+}
+.SocialMediaContestsTable14 td:nth-child(3){
+width:12%;
+}
+.SocialMediaContestsTable14 td:nth-child(4){
+width:27%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable14 td:nth-child(5){
+width:12%;
+}
+.SocialMediaContestsTable14 td:nth-child(6){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(7){
+width:9%;
+}
+
+/*-----table1------*/
+.SocialMediaContestsTable12 td:nth-child(1){
+width:10%;
+}
+.SocialMediaContestsTable12 td:nth-child(2){
+width:17%;
+}
+.SocialMediaContestsTable12 td:nth-child(3){
+width:12%;
+}
+.SocialMediaContestsTable12 td:nth-child(4){
+width:18%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable12 td:nth-child(5){
+width:16%;
+}
+.SocialMediaContestsTable12 td:nth-child(6){
+width:10%;
+}
+.SocialMediaContestsTable12 td:nth-child(7){
+width:7%;
+}
+.SocialMediaContestsTable12 td:nth-child(8){
+width:11%;
+}
+.SocialMediaContestsTable12 th:nth-child(8){
+padding-left:22px;
+}
+.Socialmediadecalrewinbtn {
+    font-size:11px;
+}
+
+/*-------------tabel2----------------*/
+.SocialMediaContestsTable13 td:nth-child(1){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(2){
+width:10%;
+}
+.SocialMediaContestsTable13 td:nth-child(3){
+width:11%;
+}
+.SocialMediaContestsTable13 td:nth-child(4){
+width:18%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable13 td:nth-child(5){
+width:8%;
+}
+.SocialMediaContestsTable13 td:nth-child(6){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(7){
+width:8%;
+}
+
+}
+@media (min-width: 1024px) and (max-width: 1199px){
+.MrgnLeft70 {
+    margin-left:60px;
+}
+.SocialMNumberscountss .ant-input-number {
+    width: 32%;
+}
+.contestsocial, .contestsocial .item{
+    padding:0px 0px 8px 16px;
+}
+.MrgnLeft702 {
+    margin-left: 8.2%;
+}
+.fun2winSelectcategry456 {
+    padding-top: 12px;
+    padding-right: 11px;
+}
+.fbcontsetmaintitle .pageTitle{
+    font-size: 11.9px;
+    padding-top: 3px;
+}
+
+.fbcontestcreatebtns {
+    margin: 12px 0px 12px 9px;
+    font-size: 11px;
+}
+.fbcontestbacktodahbtn {
+    margin: 12px -3px 12px 7px;
+    font-size: 10px;
+}
+.FbcontestcreateTopsidebars .item {
+ padding: 19px 2px 16px 4px;
+font-size: 11.5px;
+}
+.FbcontestTopsidebars .item {
+    font-size: 11.9px;
+}
+.SocialMediaContestsTable14 td:nth-child(1){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(2){
+width:15%;
+}
+.SocialMediaContestsTable14 td:nth-child(3){
+width:13%;
+}
+.SocialMediaContestsTable14 td:nth-child(4){
+width:15%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable14 td:nth-child(5){
+width:12%;
+}
+.SocialMediaContestsTable14 td:nth-child(6){
+width:10%;
+}
+.SocialMediaContestsTable14 td:nth-child(7){
+width:9%;
+}
+.Socialmediadecalrewinbtn {
+    font-size: 10px;
+}
+/*-----table1------*/
+.SocialMediaContestsTable12 td:nth-child(1){
+width:11%;
+}
+.SocialMediaContestsTable12 td:nth-child(2){
+width:20%;
+}
+.SocialMediaContestsTable12 td:nth-child(3){
+width:13%;
+}
+.SocialMediaContestsTable12 td:nth-child(4){
+width:11%;
+padding-right: 10px;
+}
+.SocialMediaContestsTable12 td:nth-child(5){
+width:17%;
+}
+.SocialMediaContestsTable12 td:nth-child(6){
+width:12%;
+}
+.SocialMediaContestsTable12 td:nth-child(7){
+width:2%;
+}
+.SocialMediaContestsTable12 td:nth-child(8){
+width:11%;
+}
+/*-------------tabel2----------------*/
+.SocialMediaContestsTable13 td:nth-child(1){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(2){
+width:12%;
+}
+.SocialMediaContestsTable13 td:nth-child(3){
+width:12%;
+}
+.SocialMediaContestsTable13 td:nth-child(4){
+width:13%;
+padding-right: 25px;
+}
+.SocialMediaContestsTable13 td:nth-child(5){
+width:10%;
+}
+.SocialMediaContestsTable13 td:nth-child(6){
+width:7%;
+}
+.SocialMediaContestsTable13 td:nth-child(7){
+width:9%;
+}
+a.ViewDtlsLink{
+    font-size:11px;
+}
+}

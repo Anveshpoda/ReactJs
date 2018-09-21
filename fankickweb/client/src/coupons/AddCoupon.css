@@ -1,0 +1,249 @@
+@import '../css/common/colors.css';
+@import '../css/common/typography.css';
+.cardBody{
+    padding: 15px;
+}
+.challengeCard{
+    border:1px solid #ccc;
+}
+.list-inline{
+    padding-left: 0;
+margin-left: -5px;
+list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+.cardFooter{
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+
+
+.coupnBtn{
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    float:right !important;
+
+}
+
+.challengesmenu{
+    padding: 20px 13px;
+}
+
+textarea{
+resize: none;
+}
+
+.floatRight{
+    float: right;
+}
+.copyRight{
+    padding: 12px !important;
+}
+.challengesnavigation {
+  padding: 0px !important;
+}
+
+
+.logo {
+  font-size: var(--fontHuge);
+}
+
+
+.ant-upload-select-picture-card {
+width:300px;
+height: 300px;
+}
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+.antColLg-8{
+    width:33%;
+}
+.antColLg-12{
+    width:50%;
+}
+.antColLg-4{
+    width:16%;
+}
+.blue{
+    color: #783293 !important;
+}
+.castImg{
+    width:20px;
+}
+.h6Font{
+    font-size: 13px !important;
+    margin: 5px auto !important;
+}
+.cardContent{
+    padding: 0px 15px;
+}
+.clear{
+    clear: both;
+}
+
+
+.marginRight35{
+    margin-right:35px;
+}
+
+.ImgCheckBox{
+    position: absolute;
+    top:12%;
+}
+
+
+.ImageCheckBox{
+    position: absolute;
+    top:-6%;
+}
+
+.AddCoupnh6Fnt {
+    font-size: 11.4px !important;
+    /* margin: 5px auto !important; */
+    font-weight: 700;
+    color: #717171;
+}
+.Addcoupnsnavgations p{
+ cursor: pointer;
+ font-size:15px;
+}
+.AddcouponTab2{
+    margin-left:20px;
+}
+.deletIcon{
+    font-size:20px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}
+
+.marginRight38{
+    margin-right:38px;
+}
+
+.margin20{
+    margin:20px;
+}
+
+.marginRight15{
+    margin-right:15px;
+}
+
+.marginRight5{
+margin-right:5px !important;
+}
+
+.RedStar{
+    color:red;
+}
+
+
+.margincatgry{
+    margin:25px 0 25px 0;
+}
+
+
+.marginTop20{
+   margin-top:20px;
+}
+
+.marginLeft20{
+    margin-left:20px;
+}
+
+.padding20{
+    padding: 20px;
+}
+
+.marginBottom25{
+    margin-bottom: 25px;
+}
+
+.createFun2Win, .createFun2Win:hover, .createFun2Win:focus{
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    float:right;
+    color:#fff;
+    margin-top: -2px;
+    font-size: 13px;
+}
+
+.btnRight{
+    float:right;
+}
+
+.DeltRight{
+        float:right;
+        border:none !important;
+        margin-bottom: 15px;
+        color:red;
+}
+
+
+.borderTab .ant-tabs-nav .ant-tabs-tab{
+    border:1px solid #ccc;
+    padding:10px !important;
+}
+
+.ant-tabs-bar{
+
+}
+
+.marginBottom14{
+    margin-bottom: 14px;
+}
+
+.marginTop20{
+    margin-top:20px;
+}
+
+.ant-btn .AddPlusIcon{
+  background-color:  #186AF5;
+  color:#fff;
+}
+
+.padng10{
+    padding:10px !important;
+}
+.AddCouponsNewcomp{
+border-bottom:1px solid #f0f0f0;
+ margin:20px auto;
+}

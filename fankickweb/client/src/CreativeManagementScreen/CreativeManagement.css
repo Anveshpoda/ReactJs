@@ -1,0 +1,333 @@
+.paddingLeft20{
+    padding-left:20px;
+}
+
+
+.CreativeManagementmenu{
+    padding: 20px 13px;
+}
+
+
+
+.SubMenuCreativeManagement {
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 10px -3px 10px 0px;
+    height: 70px;
+        border: 1px solid #e5e5e5;
+}
+
+
+
+
+.pageTitleCreativeManagement{
+
+    font-size: 16px;
+    margin-top: 23px;
+    color: #783293 !important;
+}
+
+.UploadCreativeBtn{
+    margin-right:1px;
+    float:right;
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+
+
+
+
+.SubMenuCreativeManagementTab{
+    margin: 0px 12px 30px 12px;   
+}
+
+.CreativeMngmntborderColorTabs{
+    padding-left:19px;
+}
+
+.ThreeDotsTab{
+    position: absolute;
+    top: 17%;
+    left: 8%;
+
+}
+.MainCardCmanagement{
+    height:230px;
+}
+
+.CreativeHeadingTotal{
+    position: absolute;
+    left:2%;
+    top:0%;
+    color:#757171;
+    padding:10px;
+    font-size:13px;
+}
+.CreativemanageIcons{
+    color: #fff;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: rgba(30, 28, 28, 0.46);
+}
+.PlusIconCreativeTabVertical{
+    position: absolute;
+    right: -11%;
+    top: 16%;
+    padding: 2px 1px;
+    border-radius: 20%;
+    border: 1px solid #999;
+}
+.CreativemEditDel{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.custom-image img {
+  display: block;
+}
+/*------------------*/
+.contai {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(30, 28, 28, 0.65);
+  overflow: hidden;
+  width: 100%;
+ height:60px;
+  transition: .5s ease;
+}
+
+.contai:hover .overlay {
+  height: 100%;
+}
+.text {
+position: absolute;
+   bottom: 10px;
+  z-index:1;
+}
+.text h4{
+  color: white;
+  font-size:1.4em;
+      padding: 2px 25px;
+}
+.text p{
+  color: white;
+  word-break:break-all;
+  padding: 2px 25px;
+}
+.BordrBottomSubTitle{
+    border-bottom: 1px solid #f1eeee;
+    padding-bottom: 10px;
+}
+
+.RightElmnt{
+    float:right;
+        margin-right: -27px !important;
+}
+.SocreandEdiCreativem{
+    float:right;
+}
+
+/*---------------2*/
+.CreativemSidechannelbar{
+    background-color: #fff;
+    color: #000;
+    padding: 20px 15px;
+    margin: 2px auto;
+    height: 60px;
+}
+.CreativemSidechannelbar h2{
+    font-size:15px;
+}
+.creativeSideDrop{
+    float:right;
+}
+.CreativemEditDel{
+display:none;
+}
+.contai:hover .overlay .CreativemEditDel{
+    display:block;
+}
+.CreatemDefult-tags{
+    border-top:1px solid #ccc;
+    padding:15px 0px;
+    margin:10px 0px;
+}
+.CreateDataTypeTagWords45{
+    height:30px !important;
+    margin-right:0px !important;
+}
+
+.CreateChanneltaddAddbtn {
+    position: absolute !important;
+top: 0%;
+    left: 30%;
+}
+.Createchannelbtn{
+    border-radius:0px !important;
+      height: 35px !important;
+          /*position: absolute !important;*/
+}
+
+.CreativeDChannel{
+ width:30%;
+    height:35.2px;
+     background: #fff;
+         border-radius: 0px !important;   
+}
+
+
+.MainDivInput{
+    position: relative !important;
+}
+
+.CreativeDChannel::after{
+       width:100%;
+    height:35.2px;
+     background: #fff;
+         border-radius: 0px !important;   
+}
+
+
+
+.ThemeTxtColor{
+    color:#783293 !important;
+}
+
+
+.mrgLeft15{
+  margin-left: 15px;  
+}
+
+.Padding35{
+   padding: 35px;
+}
+
+
+.Paddingleft35{
+   padding-left: 35px;
+}
+
+.UploadDateRghtAlign{
+    float:right;
+        margin-right: -27px !important;
+        color:#999;
+}
+
+
+.UploadDateRghtAlign .BlackTxt{
+    color: #000;
+    }
+.uploadCreativeImg{
+    margin-right:30px;
+}
+.uploadCreativeImg img{
+height:250px !important;
+width:100px !important;
+}
+
+
+.createBtn {
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+   
+}
+
+.createBtn .ant-btn{
+  border:none !important;  
+}
+
+.UploadCreativeModal .ant-modal-footer{
+height:80px;
+}
+
+.InbuiltTags{
+        line-height: 27px;
+    height: 37px;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+.CreateChannelCreativeName{
+    padding:25px 0px;
+    padding-bottom:5px;
+}
+
+.CreativeChannelfont{
+    font-size: 11.4px !important;
+    /* margin: 5px auto !important; */
+    font-weight: 700;
+    color: #717171;
+    padding-bottom:9px;
+}
+.CreativemanageIcons span{
+padding:5px;
+margin:5px auto;
+}
+.CreativeMangaeEditIcon{
+    padding-left:14px;
+}
+.CreativemanageIcons span:nth-child(1) {
+font-size:12px;
+}
+.CreativemanageIcons span:nth-child(2) {
+    font-size:18px;
+}
+.CrerateChannlmainmodal{
+        padding: 40px 25px 10px 30px;
+}
+.CreativeManagDashimag{
+    margin-bottom:-2px;
+}
+.creativesidebarseemore h4{
+    text-align:center;
+    font-size:14px;
+    color:#783293;
+}
+
+.ChannelTitle{
+    font-size:14px;
+}
+.TopChannelhead{
+    font-size:13px;
+}
+
+.NoChannelsCreativeM{
+    border: 1px solid #ccc;
+    padding: 7px 15px;
+    border-radius: 98px;
+    font-size: 12px;
+}
+.SocreandEdiCreativem span{
+    margin:2px auto;
+}
+.CreateiveAddplusicon{
+    border: 1px solid #ccc;
+    padding: 7px 12px;
+    border-radius: 98px;
+    font-size: 12px;
+    cursor:pointer;
+    position: relative;
+}
+.Cursrhand{
+    color:#783293;
+}

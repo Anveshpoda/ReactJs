@@ -1,0 +1,627 @@
+@import '../css/common/colors.css';
+@import '../css/common/typography.css';
+.cardBody{
+    padding: 15px;
+}
+.challengeCard{
+    border:1px solid #ccc;
+}
+.list-inline{
+    padding-left: 0;
+margin-left: -5px;
+list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+.couponscardFooter{
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+.AddCouponMainBody{
+    padding-left:10px;
+    padding-right: 50px;
+}
+.challengesmenu{
+    padding: 20px 13px;
+}
+.floatRight{
+    float: right;
+}
+.copyRight{
+    padding: 12px !important;
+}
+.challengesnavigation {
+  padding: 0 28px;
+}
+.logo {
+  font-size: var(--fontHuge);
+}
+
+.active {
+  color: var(--colorDodgerBlue);
+}
+.ant-upload-select-picture-card {
+width:300px;
+height: 300px;
+}
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+}
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+.antColLg-8{
+    width:33%;
+}
+.antColLg-12{
+    width:50%;
+}
+.antColLg-4{
+    width:16%;
+}
+.blue{
+    color: #783293 !important;
+}
+.castImg{
+    width:20px;
+}
+.h6Font{
+    font-size: 13px !important;
+    margin: 5px auto !important;
+}
+.cardContent{
+    padding: 0px 15px;
+}
+.clear{
+    clear: both;
+}
+.couponsmodalB .ant-modal-body {
+   top:20px;
+   width: 820px !important;
+}
+
+.AvlblTxT{
+    color: green;
+    padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+/*
+.ant-modal-body{
+    height: 500px !important;
+    overflow-y: scroll !important;
+}
+*/
+.ant-card-bordered{
+    margin:0px 13px 26px;
+        border: 1px solid #e5e5e5;
+}
+
+
+.pageTitle{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #000 !important;
+    font-weight:600 !important;
+}
+
+
+.SubMenuCoupons {
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 10px -1px 10px -2px;
+    height: 70px;
+        border: 1px solid #e5e5e5;
+}
+
+
+.mrgLeft30{
+    margin-left:30px;
+}
+
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;
+}
+#pagenumberLi li{
+    /* background-color: #783293; */
+    padding: 5px 10px !important;
+    color:#783293;
+    margin: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#pagenumberLi li:hover, .activeLi{
+    background-color: #783293;
+    padding: 5px 10px !important;
+    color:#fff !important;
+    margin: 3px;
+    border: 1px solid #783293 !important;
+}
+.fun2winicons li{
+font-size: 15px;
+width: 33%;
+}
+.AddCoupnh6Fnt {
+    font-size: 11.4px !important;
+    /* margin: 5px auto !important; */
+    font-weight: 700;
+    color: #717171;
+    padding-bottom:8px;
+}
+.ant-select-selection{
+    border-radius: 0px;
+}
+.fun2winSelect .ant-select-selection__rendered{
+    line-height: 30px;
+}
+.fun2winSelect .ant-select-selection--single {
+    height: 32px;
+}
+.fun2winId{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+#subcat{
+    display: none;
+}
+
+.imgCoupons{
+    max-width:100%;
+    overflow:hidden;
+}
+.imgCpon{
+height:280px;
+}
+.example{
+    text-align: center;
+    background: rgba(0,0,0,0.05);
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+}
+.HeadingsTab{
+    padding:20px;
+}
+
+.sideHeading{
+    font-weight: 600;
+    color:#999;
+    }
+
+.sideHeading .ant-switch{
+    margin-right:15px;
+}
+
+.sideHeading > span{
+    margin-right:15px;
+}
+
+ul.updateAlert {
+    list-style-type: none;
+    margin: 0;
+     padding:20px;
+}
+
+li.updateAlert  {
+    display: inline;
+    padding-left:10px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+.FanCoinsLabel{
+   color: #783293;
+   font-size:14px;
+}
+
+.SubHeadingsTab{
+    padding:12px 12px 12px 0;
+}
+
+.Marginleft15{
+    margin-left:15px;
+}
+
+.fontWeightBold .ant-form-item-label label{
+    font-weight: 700;
+}
+
+.couponsbtn .couponssaveBtn{
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 28px !important; 
+    width: 100px;  
+}
+
+.MarginTop20{
+    margin-top:20px;
+}
+.marginLeft30{
+    margin-left:30px;
+}
+
+
+.ant-tabs-nav .ant-tabs-tab{
+    padding:8px 20px 8px 0px  !important;
+}
+
+
+figure {	
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden !important;
+}
+.AddCouponsUploadImage img{
+height:148px;
+width:148px;border-radius:6px;
+}
+
+.AddCouponRichtext .RichTextEditor__editor___1QqIU {
+    cursor: text;
+    font-size: 16px;
+}
+.couponmodal{
+    /* height: -webkit-fill-available !important; */
+    height: 500px;   
+}
+.couponCardTitle, .couponCardFooterh3 {
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    margin: 6px 0px;
+    color: #1a173b;
+}
+.couponSubText {
+    margin-bottom: 12px;
+    font-weight: 400;
+    color: rgba(49, 70, 88, 0.7);
+    font-size:12px !important;
+}
+.couponstype{
+    margin:0px 13px 20px 13px;
+}
+.viewcouponCardFooterh3 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 6px 0px;
+}
+    .viewcouponCardFooterh3 li:first-child{
+   color: #783293;
+}
+
+.CouponsAvilableListsubMenu{
+      padding: 19px 20px;
+    background-color: #ffffff;
+    margin:30px 13px 0 13px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    width:98.5%;
+}
+
+.rightAlignOkaybtn{
+    float: right;
+    margin-top:20px;
+}
+
+.CouponsRedeemedListsubMenu{
+      padding: 19px 20px;
+    background-color: #ffffff;
+    margin:30px 13px 0 13px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    width:98.5%;
+}
+.CouponsNavigations{
+    padding-top:12px;
+    float: right;
+}
+
+.GreyTxtCoupons{
+    color: grey;
+    padding-right:5px;
+}
+
+
+.BorderDisabledCouponsPopUp  {
+  width:236px !important;
+}
+
+
+.BorderDisabledCouponsPopUp  .ant-input:hover{
+border: 1px solid #d9d9d9  !important;
+  width:236px !important;
+}
+
+.CouponsPopupDtpckrWidth{
+    width:236px !important;
+    }
+
+.CouponsPopupDtpckrWidthRight{
+  width:256px !important;
+  padding-left:20px !important;
+}
+
+.CouponsPopupInputWidth {
+    width:288px !important;
+      border-radius: none !important;
+    }
+
+.CouponsPopupInputWidthRight {
+  width:288px !important;
+  padding-left:20px !important;
+  
+}
+
+.ant-input-number-input{
+border-radius: none !important;
+}
+
+.SubTitleCoupons{
+      color: #783293;
+      margin-top:3px;
+      font-size: 16px;
+   }
+
+.EditCouponBrand:hover ,.EditCouponBrand:active ,.EditCouponBrand:focus{
+    color:#783293;
+}
+
+.EditCouponBrand{
+     color:#783293;
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+  
+}
+
+
+.CouponSubmenu{
+      background-color: #ffffff;
+      height:auto;
+      padding: 30px 30px;
+      margin-left: 13px;
+      margin-right: 10px;
+        border: 1px solid #e5e5e5;
+        }
+
+.mrgnTop20{
+    margin-top:20px;
+}
+
+.paddingLft20{
+    padding-left:20px;
+}
+
+
+.SubmitBtn{
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+
+/*.paddingLft50{
+    padding-left:50px;
+}*/
+
+
+/*
+.marginLft50 .ant-input{
+    margin-left:50px;
+}
+
+.marginLeft50 .ant-input{
+    margin-left:50px;
+}*/
+
+
+
+.Couponsitem{
+padding-right:10px;
+font-size:12px;
+}
+.CouponsDashboardbtn{
+       background-color: #783293 !important;
+    border-color: #783293 !important;
+    color:#FFFFFF !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+    margin-top: -2px;
+}
+.ReedmedCouponsDashboardbtn{
+   background-color: #783293 !important;
+    border-color: #783293 !important;
+    color:#FFFFFF !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+    margin-top: -2px;
+
+}
+.ReddemedCoupnsdashselect{
+    width:100% !important;
+}
+.ReddemedCoupnsdashselect2{
+    width:100% !important;
+}
+.CouponsdashSelect1{
+    width:100% !important;
+    margin-bottom: 15px;
+}
+.CouponsdashSelect2{
+    width:100% !important;
+}
+.AddCoupondashh6Fnt {
+    font-size: 11.4px !important;
+    margin: 8px auto !important;
+    font-weight: 700;
+    color: #717171;
+}
+
+.AddCoupondashFont {
+    font-size: 11.4px !important;
+    margin: 8px 25px;
+    font-weight: 700;
+    color: #717171;
+}
+
+.mrginLeft25{
+    margin-left:25px;
+}
+
+
+
+
+
+.Addnew-coupmerchant{
+    width:700px !important;
+}
+
+.SearchIcon{
+    position: absolute;
+    top:20%;
+    right:5%;
+}
+
+.EyeFont16{
+    font-size: 16px;
+}
+
+.funClubsRenss{
+  padding:15px 0px 10px 0px;
+   margin-bottom:30px;
+}
+.CouponsCosttsmain{
+    position: relative;
+    top: -18px;
+    float: right;
+    
+  
+}
+.CouponsReedmedcost{
+    float:right;
+}
+.CouponsAvaillistcosts{
+    float:right;
+}
+.Couponscostcoinsreedm{
+    margin-left:0px !important;
+}
+.CouponsDashboardsRich .RichTextEditor__root___2QXK- {
+    border: 1px solid #aaa !important;
+}
+.CouponsDashEditUpload img{
+    width:148px !important;
+    height:148px !important;
+}
+.Couponspreuploadbtn {
+    position: absolute;
+    z-index: 9;
+    top: 6px;
+    right: 4px;
+}
+.Couponspreuploadbtnicons {
+    color: #fff;
+    font-size: 20px;
+    cursor:pointer;
+}
+.editainbannupimg img{
+    width:147px;
+    height:147px;
+}
+.CouponsDashavimg{
+    width:21px;
+    height:auto;
+}
+.AvailCouponscount{
+    padding-top:2px;
+}
+.CouponsdashmainSelects {
+    padding-top: 13px;
+    padding-right: 25px;
+}
+.Couponsdashdate{
+      padding-top: 13px;
+}
+.couponspageTitle {
+    font-size: 15px;
+    color: #000 !important;
+    font-weight: 600 !important;
+    padding: 17px 0px 0px 0px;
+}
+
+@media only screen and  (min-width: 1024px)  and  (max-width: 1200px){
+
+.FancoinsTxt{
+margin:0px;
+padding:0px;
+font-size:11.8px;
+font-weight:500;
+}
+
+.CouponsAvblFanCoins{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.CouponCostTxt{
+margin:0px;
+padding:0px;
+margin-top:5px;
+font-size:11.8px;
+font-weight:500;
+}
+.CouponsAvaillistcosts{
+    display:block;
+    float:none;
+}
+.CouponsAvblFanCoins{
+    font-size:11.8px;
+}
+.CouponsReedmedcost{
+    display:block;
+    float:none;
+}
+.CouponsCosttsmain{
+    text-overflow: ellipsis;
+    overflow: hidden;
+  
+}
+.CouponsDashtimes{
+    display:block;
+    
+}
+
+}

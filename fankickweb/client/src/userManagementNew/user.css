@@ -1,0 +1,73 @@
+.SubMenu {
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 10px 0px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.bodyBgWhite{
+    background-color: #ffffff;
+    margin: 20px 0px;
+    padding: 20px 20px;
+    min-height: 400px;
+}
+.btnGroup{
+    text-align: center;
+}
+.btnGroup .ant-btn{
+    margin: 10px auto;
+}
+.marginLeft10{
+    margin-left: 10px;
+}
+.marginRight10{
+    margin-right: 10px;
+}
+.modulePermissions{
+    background-color: #e5e5e5;
+    padding: 10px 20px;
+    margin-bottom:15px;
+}
+.moduleTypes{
+    margin-top:6px;
+}
+.CheckboxAllowAccess{
+    margin:0px !important;
+}
+.paddingLeft20{
+    padding-left: 20px;
+}
+.SideMenu {
+    border-left: 1px solid #e0e0e0;
+    height: 100%;
+}
+.ant-menu-inline .ant-menu-item::after, .ant-menu-vertical .ant-menu-item::after {
+
+    border-right: 3px solid #783293;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #7832931d;
+}
+.ant-menu-item-selected, .ant-menu-item-active, .ant-menu-item:hover {
+    color: #783293;
+}
+.usertypemenu{
+    border-bottom: 1px solid #e5e5e5;
+    margin:0px auto !important;
+}
+.usertypemenu li{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.litabActive{
+    color:#783293;
+    border-bottom: 3px solid #783293;
+}
+.userdataTable{
+    margin-top: 20px;
+    padding: 10px;
+}
+.tabsection{
+    padding-right: 15px;
+}

@@ -1,0 +1,1151 @@
+
+.buttonslist li{
+padding: 15px;
+width:50%;
+text-align: center;
+}
+.fanclubDetails .ant-tabs-nav .ant-tabs-tab{
+    padding: 8px 16px !important;
+}
+.fanclubnavigation{
+    border-bottom: 1px solid #ccc;
+   
+}
+.fanclubnavigation a{
+    padding: 8px 10px !important;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.ThemeTextColor{
+    color:#000  !important;
+    font-size:16px;
+    padding-top:3px;
+    font-weight:800 !important;
+   
+}
+.navigation--active {
+border:1px solid #783293 !important;
+display:table !important;
+width:100%;
+  }
+
+
+
+.commntImg{
+  height: 120px;
+   width: 100% ;
+}
+hr.hrcolorfanClubsFeed{
+ border-style: solid;
+border-width: 0.5px;
+ border-color:#ccc;
+}
+hr.hrcolor{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ccc;
+}
+.viewfanc{
+ margin: 2px auto;
+ padding: 10px;
+  background-color:#fff;
+}
+  .FanclubsFeedIconshs{
+    padding-left:30px !important;
+    font-size:15px;
+}
+.FanclubsFeedIconsh{
+    font-size:15px;
+}
+.createFanclubpublicPrivate{
+    padding-top:14px;
+}  
+#pagenumberLi {
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.viewMoreIconfanclubs i{
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-size: 18px;
+    color:#783293;
+}
+.viewMoreIconfanclubs i{
+margin-top:3px;
+margin-right:15px;
+}
+#pagenumberLi li{
+    /* background-color: #783293; */
+    padding: 0px 10px !important;
+    color:#783293;
+    margin: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#pagenumberLi li:hover, .activeLi{
+    background-color: #783293;
+    padding: 0px 10px !important;
+    color:#fff !important;
+    margin: 3px;
+    border: 1px solid #783293 !important;
+}
+
+.mrgnBottom12{
+    margin-bottom: 12px;
+}
+
+.borderBox{
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+.borderBox{
+margin: 5px auto;
+padding: 10;
+border: 1px solid #e2e1e0;
+}
+
+.rightBlock{
+padding: 10px 10px 10px 16px;
+border-left: 1px solid #e2e2e2;
+}
+
+.Coment{
+     background-color:rgb(241, 241, 244);
+      padding-top:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.comment-btn{
+    margin-left:30px;
+}
+.CreateFanClubsMainHeader{
+    padding-top:28px;
+}
+/*.rates li:hover,.rates li:active ,.rates li:focus{
+    color:orangered;
+}*/
+.emojis{
+    margin:5px;
+    margin-left:15px !important;
+}
+.coment-like{
+    margin:5px;
+   border-right: 1px solid grey;
+   color:grey
+}
+
+.fanclubnavigation,.fanclubnavigation .item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px;
+    color: var(--colorBlack);
+  }
+
+  
+  .active {
+    color: var(--colorDodgerBlue);
+  }
+  .uploaderimage {
+  width: 140px !important;
+  height: 140px !important;
+}
+.Publiclinesp{
+    padding-top:10px;
+}
+.fancupload .anticon-plus{
+    vertical-align: bottom !important;
+}
+.fancupload img{
+    border-style: none;
+    width: 122px;
+    height: 102px;
+    margin-top: -20px;
+    border-radius:5px;
+}
+.CreatefanclubCatgeory li{
+    width:25%;
+}
+.Sub-CategoryFanclubcreate{
+    margin-left:10px;
+}
+.fancDescription{
+    margin-left:20px;
+    width:36.3%;
+    
+}
+
+
+.mrgLeft15{
+    margin-left:15px !important;
+}
+/*.viewfanc:hover  {
+    border: 1px solid blue;
+}*/
+/*.faneventspin .funSpin,.fancfeed .funSpin,.fancall .funSpin{
+     padding-top: '0%';
+     background-color: #fff !important;
+
+}*/
+.fanshloadssh .funSpin{
+    background-color:transparent !important;
+
+}
+    .scrollHidden{
+        overflow-x: hidden !important;
+    }
+    .margnLft{
+        margin-left:15px;
+         }
+.createfanclubbackbutton{
+    float:right;
+}
+.createfanclubheading{
+    padding-top:18px;
+    padding-bottom:10px;
+    color:#000;
+    font-size:16px;
+    font-weight:800;
+}        
+/*.CreateFanClubsubhead{
+    margin-left:-25px;
+} */
+.FanClubsViewDetailsInfosubtitle2{
+    width: 56em; 
+}
+.fanClubsFiltericon{
+    font-size:25px !important;
+    color:Blue;
+}
+.FanClubsChecKfilter{
+    float:right;
+    margin-right:-9px;
+    margin-top:-12px;
+}
+.FanClubsChecKfilter .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.FanClubsChecKfilter .ant-checkbox:hover .ant-checkbox-inner,
+.FanClubsChecKfilter .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #783293;
+}
+/*.FanClubsViewDetailsInfosubtitle2{
+    overflow:hidden;
+}*/
+/*.createfanclubSelectcategory{
+    margin-left:50px;
+}       */
+
+.marginTopBottom15{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.FanClubfeedUploadImagemodal img{
+    width: 136px;
+height: 136px;
+margin-top: -20px;
+border-radius: 5px;
+}
+
+
+.fancupload .uploaderimage {
+    width: 127px !important;
+    height: 106px !important;
+    border-radius:0px !important;
+}
+
+.fancupload .avatar-uploader > .ant-upload {
+    width: 127px !important;
+    height: 106px !important;
+    border-radius:0px !important;
+}
+.createfanclubimagesupload{
+    margin-left:25px;
+}
+.createFanclubpublicPrivate .ant-radio-wrapper{
+    height:95px !important;
+}
+.createFanclubpublicPrivate p{
+    line-height:17px;
+    padding-left:20px;
+}
+.CreatefanclubnextBtn{
+       background-color: #783293 !important;
+    border-color: #783293 !important;
+    color:#fff;
+      margin-top:15px;
+    margin-bottom: 15px;
+}
+.createfanclubverticalradios{
+    font-size:14px;
+    font-weight:700;
+}
+.createfancmainimagesheader{
+    padding-top:14px;
+    padding-bottom:14px;
+}
+.Createancimagesh{
+    margin-left:18px;
+    margin-top:10px;
+}
+.createFancimageTitle{
+    text-align:center;
+    padding-top:5px;
+    line-height:20px;
+}
+
+.borderTOPNone{
+border-top:none !important;
+    padding: 10px 15px;
+}
+
+.margnBtm10{
+    margin-bottom: 10px;
+}
+
+.SubMenuFanClubs {
+    padding: 20px 20px;
+    background-color: #ffffff;
+    margin: 10px 13px 20px 13px;
+    height: 70px;
+        border: 1px solid #e5e5e5;
+}
+
+
+.mrgLeft30{
+    margin-left:30px;
+}
+.FanClubsCardContestTitle{
+      font-size: 1.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 500;
+    margin: 6px 0px;
+    color: #1a173b;
+}
+
+.FanClubsCardContestsubTitle{
+      font-size:12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 500;
+    margin: 6px 0px;
+  color: rgba(49, 70, 88, 0.7);
+}
+.FanClubsCardContestMembers{
+      margin-bottom: 12px;
+    font-weight: 400;
+    color: rgba(49, 70, 88, 0.7);
+}
+.FanClubsCardSendMessage{
+    color: rgba(49, 70, 88, 0.7);
+}
+.FanClubsCotestNumbers{
+    padding-top:5px !important;
+}
+.FanClubsviewFanClubs{
+ border-right:1px solid #f0f0f0;
+}
+.FanClubsDashboardFooter{
+    border-top:1px solid #f0f0f0;
+}
+.FanClubsCardsmainImgs{
+border-radius:100%;
+ width: 100px;
+  height: 100px;
+   border:1px solid #f0f0f0;
+}
+.diasbleRow{
+    cursor: not-allowed;
+}
+.divboxFanClubs {
+    display: block;
+    width: 88px !important;
+    border:1px solid #f0f0f0;
+    height: 100px;
+    border-radius:5px;
+    cursor: not-allowed;
+   
+  }
+.FanClubsViewFansTabsPulic .ant-tabs-nav .ant-tabs-tab:hover,.FanClubsViewFansTabsPulic  .ant-tabs-nav .ant-tabs-tab-active{
+background-color:transparent !important;
+
+}
+  .divboxFanClubs.green {
+    border: 1px solid #783293;
+  
+  }
+  .FanClubsListofcontests1{
+      padding:0px;
+  }
+    .FanClubsListofcontests{
+      padding:5px;
+  }
+  /*.fanclubDetails{
+      padding:10px 0px 10px 10px;
+  }*/
+  .FanclubsViewFancsubColumn{
+      
+      background-color:#F1F5F6;
+      padding-top:5px;
+  }
+
+.FanclubsCardHeight .ant-card-body{
+    height:300px;
+}
+
+  .FanclubsCardCContent{
+text-align: center;
+padding: 15px 15px 10px 15px;
+  }
+  .FanClubsContestViewDate{
+      padding-left:5px;
+  }
+  .FanClubsContestCreatedBy{
+       padding-right:5px;
+  }
+.FanclubsCategoryNames{
+      float: right;
+    margin-right: -20px;
+    color: #783293;
+    font-weight:600;
+}
+.FanclubsContestNames{
+    text-transform:uppercase;
+    font-weight:600;
+    padding-bottom:5px;
+    color: #333333;
+}
+.CreatedDateinFanClubs{
+     font-size:11px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 600;
+  color: rgba(49, 70, 88, 0.7);
+}
+.fanhomesearch{
+float:right !important;
+margin-right:15px;
+}
+.FanClubsPublicMembers{
+    color:#333333;
+    font-weight:600;
+}
+.mobile{
+    color:red;
+    text-align:left;
+}
+.createBtn{
+float:right;
+/* margin-right:20px; */
+}
+.fancall .funSpin{
+ padding-top:20%;
+}
+.FansClubsSmallMembersImgs{
+margin-right:-20px;
+}
+.FansClubsSmallinnerMembersImgs{
+border-radius:100%;
+ width:30px;
+ height:30px;
+ border:1px solid #f0f0f0;
+}
+.FanClubsMembsNames{
+    padding-top:5px;
+}
+.FanClubsViewResults{
+    padding-top:5px;
+    padding-left:4px;
+}
+.viewfanc{
+
+	border:1px solid  #f0f0f0;
+	cursor: pointer;
+}
+.selected {
+    
+    background-color:green !important;
+}
+.fanClubssBtn  .createBtn {
+    float: right;
+    margin-right: 20px;
+    margin-top: -6px;
+}
+/*.viewfanc:active{
+    color: white;
+    background:red
+}*/
+.fanClubsViewFanclubsNamesdetails{
+ padding:8px 10px;
+}
+.FanClubsViewMaincolum1{
+    padding: 7px 20px;
+    background-color: #ffffff;
+    margin: 30px 8px 30px 12px;
+    height: 70px;
+    width:98%;
+    border: 1px solid #e5e5e5;
+}
+
+.viewfanClunsCreaBtn{
+ float:right;
+}
+
+.FanClubsViewFansTabsPulic{
+ padding:6px 10px;
+}
+.FanclubsviewRemainingtabs{
+ margin:-6px auto;
+ padding:0px 10px;
+}
+.viewFanClubsHomesearch{
+    margin-left:0px;
+}
+.viewFanclubsMobile{
+   color:red;
+    text-align:left;
+}
+.FanClubsInfos{
+margin:5px auto;
+ padding: 10px;
+ border-bottom: 1px solid #f0f0f0;
+}
+.FanClubsInfoDetails{
+    padding-left:10px;
+}
+.FanClubsInfoDetailName{
+ float:right;
+  color:#783293;
+font-weight:600;
+}
+.FanClubsInfoDetailDescription{
+ margin:5px auto;
+  padding: 10px;
+   border-bottom: 1px solid #f0f0f0;
+}
+.FanClubsInfoDetailCreatedBy{
+margin: 5px auto;
+ padding: 10px;
+}
+.FanClubsViewDetailsInfoCreatedBy{
+    padding-top:7px;
+    font-size:12px;
+    white-space: nowrap;
+    font-weight: 500;
+  color: rgba(49, 70, 88, 0.7);
+}
+.FanclubsFeedsmain , .FanclubsFeedsmain1{
+margin:5px auto;
+ padding: 10px;
+}
+.FanClubsFeedsNameDate{
+    padding-left:10px;
+}
+.FanClubsFeedsUser{
+     font-size: 1.1em;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 0px 0px;
+    color: #333333;
+}
+.FanClubsFeedsCreateDate{
+      font-size:12px;
+    white-space: nowrap;
+    font-weight: 500;
+  color: rgba(49, 70, 88, 0.7);
+}
+.FanclubsFeedIcons , .FanClubsFeedsDescription{
+ padding:10px;
+}
+.FanclubsFeedIconsh{
+     padding:10px;
+}
+.FanClubsFeedsDescriptiontitle{
+     font-size: 1.1em;
+    white-space: nowrap;
+     color: #333333;
+}
+.FanclubsFeedMessageCount{
+    padding-left:5px;
+}
+.FanClubsVieMembers{
+margin:5px auto;
+padding:10px;
+border-bottom:1px solid #f0f0f0;
+}
+.FanClubsviewMembersAdmin{
+    color:red;
+    padding-left:9px;
+}
+.FanClubsViewMembersList{
+    padding-top:7px;
+    color:#333333;
+    font-weight:600;
+}
+.FanClubsFanoftheMonth{
+ margin:5px auto;
+  padding: 10px;
+   border-bottom:1px solid #f0f0f0;
+}
+.FanclubsfanofTheMonthAdmin{
+    color:red;
+}
+.fanClubsLeaderboard{
+margin:5px auto;
+ padding: 10px;
+  border-bottom:1px solid #f0f0f0;
+}
+.fanClubsLeaderContestUserName{
+    padding-left:10px;
+    padding-top:7px;
+    color:#333333;
+    font-weight:600;
+}
+.fanClubsLeaderContestPoints{
+    padding-left:9px;
+    color:#333333;
+    font-weight:600;
+}
+.fanClubsLeaderContestCount{
+ color:#783293;
+  font-weight:600;
+  padding-left:28px;
+  font-size:14px;
+}
+.FanClubError{
+    color:red;
+}
+.FancLubEditTextArea{
+ padding:6px;
+}
+.disableCategory{
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+
+}
+.FanClubsCotestNumbers{
+    padding-top:5px !important;
+    color:#333333;
+    font-weight:600;
+}
+.FanClubsCardContestTitle  , .FanClubsViewDetailsInfotitle{
+      font-size: 1.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 4px 0px;
+    color: #333333;
+}
+.FanClubsViewDetailsInfotitle2{
+    font-size: 13.4px;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 4px 0px;
+    color: #797979;
+}
+.FanClubsViewDetailsInfosubtitle2{
+      font-size:12.4px;
+    font-weight: 500;
+    margin: 5px 0px;
+  color: #333333;
+}
+.FanClubsViewDetailsInfosubtitle1{
+      font-size:12px;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 5px 0px;
+  color: rgba(49, 70, 88, 0.7);
+}
+.FanClubsCardContestsubTitle, .FanClubsViewDetailsInfosubtitlel ,.FanClubsViewDetailsInfosubtitlen{
+      font-size:12px;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 5px 0px;
+  color: #969696;
+}
+
+.FanClubsViewDetailsInfosubtitlem{
+      font-size:12px;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 5px 0px;
+  color: #333333;
+}
+.FanClubsCardContestMembers{
+      margin-bottom: 10px;
+    font-weight: 600;
+    color: #333333;
+}
+.FanClubsCardSendMessage{
+    color:#8d8d8d;
+    font-weight:600;
+}
+.FanClubsCardSendMessage:hover ,.FanClubsCardSendMessage:active{
+color:#783293;
+}
+.FanClubsviewFanClubs a:hover ,.FanClubsviewFanClubs a:active{
+    color:#783293;
+}
+.FanClubsviewFanClubs a{
+color:#8d8d8d;
+  font-weight:600;
+}
+.fanClubsLeaderContestPointsmain{
+    color:#333333;
+    font-weight:600;
+    font-size:14px;
+}
+.FanClubsViewDetailsInfoCreatedBy{
+    color:#515668;
+    font-weight:600;
+    font-size:14px;
+}
+.FanclubsLeaderBoardCoins{
+    font-size: 11.4px !important;
+    /* margin: 5px auto !important; */
+    font-weight: 700;
+    color: #717171;
+}
+.react-emoji-selector{
+    height: 141px !important;
+    width: 405px  !important;
+    background: #f5f5f5;
+    /*margin-top:-20px;*/
+    /* border: 1px solid #ddd  !important;
+    overflow: scroll  !important;
+    padding: 10px  !important; */
+}
+.emojiInput{
+    position : relative;
+    display:inline-block;
+}
+
+.Attachurls{
+    position: absolute;
+    top: 7px;
+    right: 19px;
+}
+.smilyIcon{
+    position: absolute;
+    top: 10px;
+    right: 56px;
+}
+ .commentemojiTooltip  .ant-tooltip-inner{
+    max-width: 500px !important;
+    font-size: 12.3px !important;
+    /* color: #fff; */
+    background-color: #783293 !important;
+  height: 125px !important;
+    padding: 9px !important;
+}
+/*.commentInput{
+    width:500px;
+}*/
+.FanClubEditEllipis{
+    margin-left:-8px;
+}
+#pagenumberLiFanclubs{
+        text-align:center;
+        padding-bottom:20px;
+}
+.Editfanclubimagesh{
+    margin-left: 12px;
+margin-top: 10px;
+}
+.CreateFanClubSubMenu{
+    padding: 7px 20px !important;
+    background-color: #ffffff;
+    margin: 30px 12px 30px 12px !important;
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.CreateFanClubBody{
+     padding: 7px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+     margin: 30px 12px 30px 12px !important;
+}
+.createfanclubbackbutton{
+    margin-top:12px;
+}
+.ViewFanClubsPublicimage img{
+    width:80px;
+    height:80px;
+}
+.FanClubsdashboardnavSubMenu{
+ 
+    padding: 20px 20px !important;
+    background-color: #ffffff;
+    margin: 30px 13px 22px 13px !important;
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.EditFanClubSubnavmenu{
+    padding: 7px 20px !important;
+    background-color: #ffffff;
+    margin: 30px 12px 30px 12px !important;
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+}
+.EditFanClubbodypage{
+     padding: 7px 20px !important;
+    background-color: #ffffff;
+    margin: 30px 12px 30px 12px !important;
+    background-color: #ffffff;
+     border: 1px solid #e5e5e5;
+}
+.memberstatusButton{ 
+    float : right;
+ }
+ .statusBar{
+     cursor : default;
+ }
+ .idleButton{
+    margin-right : 50px;
+    float:right;
+}
+.fanclubfeedspinfunSpin{
+   
+        text-align: center;
+        background: #ffffff !important;
+        border-radius: 4px;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        padding: 30px 50px;
+        margin: 20px 0;
+   
+}
+.fanclunbeventfunspin{
+    text-align: center;
+    background:#ffffff !important;
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+}
+.Uploadfeedimages img{
+    padding-top:11px;
+    padding-left:6px;
+}
+.Uploadfeedvideos img{
+    padding-top:11px;
+    padding-left:9px;
+}
+.Uploadfeedimages{
+     background-color: #fff !important;
+    border-radius: 110%;
+    height: 50px;
+    width: 50px;
+    margin:10px auto;
+    border: 1px solid #e5e5e5;
+}
+.Uploadfeedvideos{
+    background-color: #fff !important;
+    border-radius: 110%;
+    height: 50px;
+    width: 50px;
+    margin:10px auto;
+    margin-right:10px;
+    border: 1px solid #e5e5e5;
+}
+.createCategoryimageError{
+    padding-top:5px;
+}
+
+.FanClubfeedUploadImagemodal .avatar-uploader{
+    border:none;
+}
+.smilyIcon , .Attachurls{
+    cursor: pointer;
+}
+.fanClubssBtn .createBtn {
+    float: right;
+    margin-right: 1px;
+     background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+    margin-top:-3px;
+}
+.FanclubsCardCContent{
+   cursor:default;
+}
+.FanClubsRemainingtabsinview{
+    background-color:#ffffff;
+    padding-top:12px;
+}
+.fanClubsFiltersBtns {
+    position: absolute;
+    margin-top: -177%;
+    height: 33px;
+    padding: 4px 10px 10px 10px;
+}
+.TopFiltersspan{
+        padding: 10px 10px 10px 10px;
+}
+.TopFiltersspan li{
+    padding:5px 0px;
+}
+.FanClubsliderFilter1{
+    padding:10px 10px;
+}
+.FanClubsliderFilter2{
+    padding:10px 10px;
+}
+.Filterfanclubstypes{
+    font-size:12px;
+}
+.falnclubsfilterHeaders {
+    font-size: 14px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+.FansTabsBody{
+    /*padding:0px 12px 0px 12px;*/
+    border: 1px solid #e5e5e5;
+    display:table;
+    width:98.1%;
+    margin:0px 8px 30px 12px;
+}
+.FanclubEvent-image{
+    width:85px;
+    height:85px;
+}
+.fanclubEventsDetailsh{
+    padding:10px;
+}
+.Fanclubsmemic{
+    height: 20px;
+    width: 20px;
+}
+.Fanccountimgs{
+margin-top:-2px;
+}
+.Fancmemberuseric{
+    margin-top:-2px;
+}
+.fanclubpagetitle{
+    font-size: 15px;
+color: #000 !important;
+font-weight: 600 !important;
+padding:5px 0px 0px 0px;
+}
+.fanClubssBtn{
+    float:right;
+}
+.fanclubsssubmenu{
+    padding:0px 13px 12px 13px;
+}
+.createfanclubpagetitle {
+    font-size: 15px;
+    color: #000 !important;
+    font-weight: 600 !important;
+    padding: 17px 0px 0px 0px;
+}
+/*----- */
+.fanmembersmain{
+   background-color: rgb(241, 241, 244);
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;   
+}
+.FanAddusersbtnmain {
+    padding: 24px 0px 0px 25px;
+}
+.fanclubhomeselectcat{
+    padding-right:25px;
+}
+@media (min-width: 1600px) and (max-width: 1920px){
+.fanClubsFiltersBtns {
+    margin-top: -110%;
+}
+}
+.fanhomesearch {
+    float: right !important;
+    margin-right: -25px;
+}
+
+@media (min-width: 1400px) and (max-width: 1599px){
+    .divboxFanClubs{
+        width:110px;
+        height:110px;
+    }
+  .createFanClubstopimages img{
+        margin-left:30px !important;
+        margin-top:18px !important;
+    }
+    .fanClubsFiltersBtns {
+
+    margin-top: -147%;
+}
+
+
+}
+@media (min-width: 1300px) and (max-width: 1399px){
+
+.CreatedDateinFanClubs{
+    font-size: 11px;
+white-space: nowrap;
+font-weight: 600;
+color: rgba(49,70,88,.7);
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.viewfanc {
+    margin: 2px auto;
+    padding: 10px;
+    background-color: #fff;
+    display: table;
+    width: 100%;
+}
+.fanhomesearch {
+    float: right !important;
+    margin-right: -19px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1299px){
+.FanclubsContestNames{
+font-size:12px;
+}
+.viewfanc{
+    margin-left:-3px;
+}
+.BoxersofEditFanClub{
+    margin-right:15px;
+}
+.Editfanclubimagesh {
+    margin-left: 18px;
+
+}
+.CreatedDateinFanClubs{
+    font-size: 11px;
+white-space: nowrap;
+font-weight: 600;
+color: rgba(49,70,88,.7);
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.FanClubsViewDetailsInfosubtitlel, .FanClubsViewDetailsInfosubtitlen{
+    font-size: 12px;
+white-space: nowrap;
+font-weight: 600;
+margin: 5px 0;
+color: #969696;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 44em;
+}
+.FanClubsCardContestsubTitle{
+      font-size: 12px;
+white-space: nowrap;
+font-weight: 600;
+margin: 5px 0;
+color: #969696;
+overflow: hidden;
+text-overflow: ellipsis;  
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+    .fanClubsFiltersBtns {
+margin-top:-220%;
+padding: 8px 10px 10px 10px;
+    }
+    .fanClubsFiltericon {
+    font-size: 16px !important;
+    }
+.fanhomesearch {
+    float: right !important;
+    margin-right: -15px;
+}
+.FanClubsViewDetailsInfosubtitle2 {
+    width: 44em;
+}
+.FanClubsFeedsNameDate {
+    padding-left: 18px;
+}
+.ViewFanClubsPublicimage img{
+    width:50px;
+    height:50px;
+}
+.fanClubsLeaderContestUserName {
+    padding-left: 20px;
+    }
+    .fanClubsLeaderContestPoints {
+    padding-left: 25px;
+    }
+    .fanClubsLeaderContestCount{
+        padding-left:75px;
+    }
+.FanclubsContestNames{
+font-size:12px;
+}
+.fanClubsViewFanclubsNamesdetails {
+    padding: 2px 3px;
+}
+.BoxersofEditFanClub{
+    margin-right:30px;
+}
+.Editfanclubimagesh {
+    margin-left: 18px;
+}
+.FanclubEvent-image{
+    width:60px;
+    height:60px;
+}
+.FanClubEventCreate{
+    font-size:12px;
+    padding:10px 0px;
+}
+.fanclubEventsDetailsh{
+    padding:0px;
+}
+.CreatedDateinFanClubs{
+    font-size: 11px;
+white-space: nowrap;
+font-weight: 600;
+color: rgba(49,70,88,.7);
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.FanClubsCardContestsubTitle, .FanClubsViewDetailsInfosubtitlel, .FanClubsViewDetailsInfosubtitlen{
+    font-size: 12px;
+white-space: nowrap;
+font-weight: 600;
+margin: 5px 0;
+color: #969696;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.divbox {
+width:78px !important;;
+}
+.Createancimagesh {
+    margin-left: 14px;
+}
+}
+
+
+
+

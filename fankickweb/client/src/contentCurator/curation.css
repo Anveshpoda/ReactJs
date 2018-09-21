@@ -1,0 +1,504 @@
+.CurationdashboardnavSubMenu{
+    
+       padding: 20px 20px !important;
+       background-color: #ffffff;
+       margin: 30px 13px 15px 13px !important;
+       background-color: #ffffff;
+       height: 70px;
+       border: 1px solid #e5e5e5;
+   }
+  .Content-videos{
+      /*padding:5px;*/
+      padding-left:0px;
+      position:relative;
+  }
+  .mainheader-Curation{
+padding:15px 12px 20px;
+
+  }
+  .curator-card{
+      padding:10px;
+  }
+
+.Curationfanclubimage{
+    width:100%;
+    height:180px;;
+}
+.Curationfanclubimagecard{
+    /*height:306px !important;*/
+}
+
+.fanClubCuratortextfeed{
+    border:1px solid #e5e5e5;
+    background-color:#ffffff;
+    padding:10px;
+   /*margin:8px;
+   margin-left:0px;*/
+    margin:11px 11px 11px 11px;
+   padding-left: 10px;
+  word-break: break-all !important;
+  height:105px;
+  overflow-y:scroll;
+}
+.fanClubCuratortextjunkfeed{
+    border:1px solid #e5e5e5;
+    background-color:#ffffff;
+    padding:10px;
+   /*margin:8px;
+   margin-left:0px;*/
+    margin:11px 11px 11px 11px;
+   padding-left: 10px;
+  word-break: break-all !important;
+  height:105px;
+}
+
+.fanClubCuratortextfeedcomment{
+    border:1px solid #e5e5e5;
+    background-color:#ffffff;
+    padding:10px;
+   /*margin:8px;
+   margin-left:0px;*/
+    margin:11px 11px 11px 11px;
+   padding-left: 10px;
+  word-break: break-all !important;
+  height:105px;
+  overflow-y:scroll;
+}
+.maintextcuratorfeed{
+    font-size:14px;
+    line-height:1.8;
+}
+.fanClubcuratortxticon{
+    float:right;
+   
+}
+.curtatorfeedicon{
+    font-size:20px;
+    cursor: pointer;
+    padding-left:10px;
+}
+.Curatiormininav{
+    float:right;
+}
+.FanClubpageintion{
+  bottom: 0px;
+  text-align:center;
+  padding-top:15px;
+}
+.Curatormenuselects{
+    width:100% !important;
+}
+.Curatorcheckbox {
+    left: 10px;
+    position: absolute;
+    z-index: 9999;
+    padding: 2px 4px;
+    top:-4px;
+}
+.Curatormenuselects12{
+    margin-right:25px;
+}
+.curatormininavdelete{
+    float:right;
+}
+.CurationfanClubImagedescpara{
+     white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width:11em;
+cursor:pointer;
+}
+.curatorfanClubvideodescpara{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width:11em;
+cursor:pointer;
+}
+.CuratorRoes{
+    margin: 10px 0px 30px 0px;
+}
+.CuratorRoeshjunk{
+    margin: 10px 0px 30px 0px;
+}
+.CuratorRoeshFeatured{
+    margin: 10px 0px 30px 0px;
+}
+Curatorcheckbox1{
+left: 10px;
+    position: absolute;
+    z-index: 9999;
+    padding: 2px 4px;
+}
+
+/*-----------*/
+.HeaderNewContnetc{
+  padding: 20px 20px;
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    margin: 30px 0px 0px 15px;
+    width: 98.5%;
+ }
+ .SubnavNewContentc{
+     float:right;
+ }
+ .SubnavNewContentculs{
+     float:right;
+ }
+
+ .Contentuserprofile{
+     width:40px;
+     height:40px;
+     border-radius:24px;
+ }
+ .NewContent-CuratorCheck{
+     position:absolute;
+     top:-4px;
+ }
+  .NewContent-CuratorCheck120{
+     position:absolute;
+     top:-4px !important;
+ }
+.NewContent-CuratorCheck120  .Curatorcheckbox {
+    left: 0px !important;
+    position: absolute;
+    z-index: 9999;
+    padding: 2px 4px;
+}
+.CuratorChallenegespage{
+    text-align:center;
+}
+ .NewContent-Curatoricons{
+     top:35px;
+     position: absolute;
+    right: 0px;
+ }
+  .NewContent-Curatoriconspost{
+     position: absolute;
+    right: 16px;
+ }
+ .NewContent-Curatoricons11{
+     position: absolute;
+    right: 0px;
+ }
+ .NewContentcuratoriconsh1{
+     font-size:20px;
+     color:#fff;
+     padding:10px 0px;
+ }
+ .NewContentcuratoriconsh2{
+    font-size:20px;
+    color:#000;
+ 
+}
+ .NewContentCuratorContent{
+     padding:10px;
+ }
+ .newContentCuratorFooter{
+       padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+ }
+ .NewContent-userName{
+     font-weight:500;
+     font-size:14px;
+     padding-top:5px;
+     line-height:1.5;
+ }
+ .Content-curat-chlngdesc{
+    width:78% !important;
+    word-break:break-all;
+ }
+  .NewContent-userId{
+     font-weight:600;
+     font-size:14px;
+     padding-top:7px;
+ }
+ .newContest-CuratorsDetails{
+        font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px 10px 8px;
+    line-height: 1.5;
+ }
+ .ContentCuratorsWallpostsavt{
+     padding-left:13px !important;
+ }
+ .ContentCuratTitless{
+     width:80%;
+     word-break:break-all;
+ }
+ .NewContentCurator-minimenu{
+padding: 20px 20px;
+height: 70px;
+margin: 30px 0px 0px 2px;
+width: 98.5%;
+ }
+ .NewContent-curatorSelectAll{
+     padding:8px 9px;
+ }
+ .NewContentcuratormenuicons{
+    font-size: 18px;
+    padding: 5px 5px;
+ }
+ /*-------fine-------*/
+ .ccCuratorWallpost{
+    padding: 5px 0px 0px 18px;
+    word-break: break-all;
+ }
+ .CuratorFeedTextss{
+   float:right;
+ }
+.ContentCuratFanCFeedPost{
+    width:37em;
+    padding:0px 10px;
+}
+.curtaotrfeedsiocni{
+    float:right;
+}
+.ContentCuFanClubCmnt{
+position:absolute;
+top:8px;
+left:11px;
+}
+.CurationSearches{
+    width:100% !important;
+}
+.CurationSearengine{
+    margin-right:25px;
+}
+.FanCCFeedCratoCmnt{
+   position: absolute;
+    top: 18px;
+    right: 25px;
+}
+.Curationfanclubimage{
+    margin-bottom:-5px;
+}
+.curatormultiselects{
+    width:101% !important;
+}
+ .curatormultiselects .ant-select-selection--multiple{
+height:28px !important;
+overflow-y:scroll;
+}
+.FanClubFeedContentCheck{
+    position:absolute;
+    left:14px;
+    top:-4px;
+    z-index:1;
+}
+.FanclubsTextContentCheck{
+    position:absolute;
+    top:8px;
+    left:11px;
+}
+.SubnavNewContentc li a:hover{
+color:#783293 !important;;
+}
+.NewContentcuratoriconsh3{
+    font-size:20px;
+    color:#000;
+    padding: 0px 4px;
+}
+.ContentCurationNavmainHeader{
+    padding-top:2px;
+}
+.curatormultiselects .ant-select-selection__placeholder, .ant-select-search__field__placeholder{
+left:9px;
+}
+.ChalngsWallPosts{
+    overflow-y:scroll;
+    height:180px;
+}
+.contentCuratorFanClubTable12{
+    background-color:#fff;
+    margin:0px 15px;
+    border: 1px solid #e5e5e5;
+    padding: 25px 15px 0px 15px;
+    position: relative;
+    top: -58px;
+}
+.contentCuratorFanClubTable .ant-table-thead > tr > th{
+    background-color:#fff !important;
+}
+
+.Menutitles{
+    font-size:15px !important;
+}
+.JunlLibrary-aalert {
+    padding: 16px 15px;
+    text-align: center;
+}
+.FeaturedFilesAAlerts{
+     padding: 16px 15px;
+    text-align: center;
+}
+.FeaturedDepth{
+    padding:26px 2px;
+}
+.JunkTotalFiles{
+   padding:26px 2px;  
+}
+.fancCommentscurator{
+    width:37em;
+    padding-left:8px;
+}
+.Conntfancdeliconmem{
+    cursor:pointer;
+    font-size:15px;
+}
+.ContentCuratchlngmainlog{
+    height:130px;
+}
+.ContneChallengeAlert{
+    margin: 10px 11px 0px 10px;
+}
+@media (min-width: 1600px) and (max-width: 1919px){
+ .fanClubCuratortextjunkfeed{
+        height:126px;
+    }
+.ContentCuratFanCFeedPost {
+    width: 37em;
+}
+.fancCommentscurator{
+width: 37em;
+}
+}
+@media (min-width: 1366px) and (max-width: 1600px){
+.fanClubCuratortextjunkfeed{
+        height:119px;
+    }
+.ContentCuratFanCFeedPost {
+    width: 28em;
+}
+.fancCommentscurator {
+    width: 38em;
+}
+.NewContent-CuratorCheck120 {
+    top: -1px !important;
+}
+.NewContent-userName{
+    padding-top:5px;
+}
+.NewContent-CuratorCheck {
+    top: -1px;
+}
+.ContentCuratorSelecTall{
+    padding-top:7px;
+}
+.NewContentCurator-minimenu{
+margin: 15px 0px 0px 2px;
+}
+.CuratorRoes {
+    margin: 10px -8px 30px 3px;
+}
+.CuratorRoeshjunk {
+    margin: 10px -10px 30px 1px;
+}
+.CuratorRoeshFeatured {
+    margin: 10px -10px 30px 1px;
+}
+.JunkTotalFiles {
+    padding: 26px 0px;
+}
+.contentCuratorFanClubTable12 {   
+    margin: 0px 3px 0px 15px;
+    top: -41px;
+    position: relative;
+}
+.FanClubFeedContentCheck{
+    top:1px;
+}
+.FanclubsTextContentCheck{
+    top:12px;
+    left: 12px;
+}
+.fanClubCuratortextfeed {
+    margin: 11px 12px 11px 13px;
+}
+.ContentCurationNavmainHeader {
+    padding-top: 4px;
+}
+.ContentCuFanClubCmnt {
+    top: 12px;
+    left: 14px;
+}
+.fanClubCuratortextfeedcomment{
+ margin: 11px 4px 11px 13px; 
+}
+.fanClubCuratortextjunkfeed{
+ margin: 11px 4px 11px 15px;   
+}
+}
+@media (min-width: 1200px) and (max-width: 1365px){
+ .fanClubCuratortextfeed{
+        margin: 11px 1px 11px 12px;
+    }
+.fanClubCuratortextjunkfeed{
+        height:150px;
+    }
+.ContentCuratFanCFeedPost {
+    width: 32em;
+}
+.fancCommentscurator{
+ width: 32em;    
+}
+.ContentCurationNavmainHeader {
+    padding-top: 4px;
+}
+.NewContentCurator-minimenu{
+ margin: 15px 0px 0px 2px; 
+}
+.NewContent-CuratorCheck120 {
+    top: -1px !important;
+}
+.NewContent-userName{
+    padding-top:5px;
+}
+.CuratorRoes {
+    margin: 10px -10px 30px 0px;
+}
+.contentCuratorFanClubTable12 {
+    margin: 0px 4px 0px 13px;
+}
+.FanClubFeedContentCheck {
+    top: 1px;
+}
+.FanclubsTextContentCheck {
+    top: 12px;
+    left: 15px;
+}
+.fanClubCuratortextfeedcomment{
+margin: 11px 4px 11px 14px;    
+}
+.ContentCuFanClubCmnt {
+    top: 12px;
+    left: 14px;
+}
+.fanClubCuratortextfeed{
+margin: 11px 11px 11px 14px;   
+}
+.CuratorRoeshjunk {
+    margin: 10px -13px 30px 0px;
+}
+.fanClubCuratortextjunkfeed{
+    margin: 11px 1px 11px 11px;    
+}
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px){
+.fanClubCuratortextjunkfeed{
+        height:190px;
+    }
+.CurationfanClubImagedescpara{
+width:10em;
+}
+.ContentCuratFanCFeedPost{
+    width:25em;  
+}
+.fancCommentscurator{
+  width:25em;    
+}
+
+}

@@ -1,0 +1,45 @@
+@import '../common/colors.css';
+@import '../common/typography.css';
+
+.navigation {
+  padding: 0 28px;
+}
+
+.item {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px;
+  color: var(--colorBlack);
+}
+
+.logo {
+  font-size: var(--fontHuge);
+}
+
+.active {
+  color: var(--colorDodgerBlue);
+}
+
+
+.userprofile{
+text-align: center;
+}
+.userprofile img{
+  width: 110px;
+  height:120px;
+    border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color:#ffffff;
+  padding:10px;
+}
+
+
+.BorderNone {
+border:none !important;
+}
+
+.ProfileBgColor{
+      background-color: #783293 !important;
+      color:#ffffff;
+          margin-bottom: -10px;
+}

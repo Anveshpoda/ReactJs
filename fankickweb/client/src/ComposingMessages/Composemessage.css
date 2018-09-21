@@ -1,0 +1,545 @@
+.ComposemsgBtn{
+border:none !important;    
+ padding-top: 20px;
+font-size: 14px;
+outline:none !important;
+}
+.ComposemsgBtn :hover , .ComposemsgBtn :active ,.ComposemsgBtn:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+
+.ComposemsgButn{
+border:none !important;    
+font-size: 14px;
+}
+
+.ComposemsgButn:after{
+    border:none !important;    
+font-size: 14px;
+}
+.unRead{
+    color :grey;
+}
+.read{
+color: #000000
+}
+
+
+.SearchHistryTxt{
+    float:right;
+    padding-top:13px;
+    font-size: 14px;
+}
+
+.SearchIconNav{
+    padding-right:15px;
+    color:#783293;
+    font-size:12px;
+    font-weight:600;
+}
+
+.MessageCentresubmenu{
+      background-color: #ffffff;
+        height:auto;
+         padding: 30px 30px;
+           margin-left: 25px;
+        }
+
+
+.MailPagefrstBlockSubmenu{
+       background-color: #f5f5f5;
+        height:auto;
+      padding-left: 30px;
+  }
+
+  .MailPagesecondBlockSubmenu{
+         background-color: #f9f9f9;
+        height:auto;
+      padding-left: 30px;
+  }
+
+
+  .MailPagesecondBlock{
+         background-color: #fff;
+        height:auto;
+      padding-left: 30px;
+  }
+
+
+
+.bordrRght{
+         border-right:1px solid #333;
+         padding-right:15px !important;
+}
+
+.paddingLft15{
+padding-left:15px !important;
+}
+
+.MsgsTxt{
+    color:#000;
+
+}
+
+.mailtxt{
+    margin-top:-16px;
+    color:#999;
+    }
+
+.imgTxt{
+    margin-top:8px;
+}
+
+
+.mrgBottom20{
+margin-bottom: 20px;
+}
+
+
+.mrgRight20{
+    margin-right:30px;
+}
+
+.RightAlgn{
+    float: right;
+}
+
+
+.RightAlgnDeletbtns{
+    float: right;
+    margin-top:20px; 
+}
+
+
+.MsgCentreSubMenu {
+    padding: 20px 13px;
+}
+
+.circlevthTxt{
+    position: absolute;
+    top: 4px;
+    color: #000;
+    background-color: #f5a623;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+.DeltFont{
+    font-size:16px;
+    border:1px solid #ededed;
+    padding:10px;
+ 
+  
+}
+
+
+
+
+.DeltThreadBtn{
+    float:right;
+    background-color: #f5f5f5;
+    border:1px solid #783293;
+    color:#783293;
+ padding: 13px;
+    line-height: 0px;
+}
+
+.ReplyCommentBtn{
+    float:right;
+    background-color: #783293 !important;
+    border:1px solid #783293  !important;
+    color:#fff  !important;
+ padding: 13px;
+    line-height: 0px;
+}
+
+
+.CommentData{
+    background-color:#fff;
+    padding:20px 40px;
+    margin: 0px 0px 30px 0px;
+}
+
+
+
+.RowBorder{
+        border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.CommentsRowBorder{
+       padding-bottom: 12px;
+}
+
+
+
+.DeltFnt{
+    font-size:16px;
+    border:1px solid #783293;
+    padding:5px;
+    float:right;
+    margin-right:15px;
+     color:#783293;
+}
+
+
+.SearchHistryTxt .ant-input-search-icon{
+    top:6px;
+    position: absolute;
+    right: 2px;
+}
+
+
+
+
+  .ant-table-thead > tr.ant-table-row-hover >td , .ant-table-tbody > tr.ant-table-row-hover >td,
+ant-table-thead > tr:hover >td, 
+.ant-table-tbody >tr:hover > td{
+background: #fff;
+}
+
+ .ComposemgsCentreTable .ant-table-thead > tr > th {
+    background: white;
+     color: grey;
+    border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+    padding-top:20px;
+}
+
+
+.CircleimgMsgCenter{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.CircleimgMsgCenterMailImg{
+        width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+.CirclrMailImg{
+        width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+
+
+
+.pdngTop8{
+    padding-top:8px;
+}
+
+
+
+.ArrowLeftReviewScreen{
+font-size:15px;
+color:#999;
+}
+
+.textLength {
+    width: 600px;
+    word-break:break-all;
+}
+
+.alignRightReplyIcon{
+    float: right;
+}
+
+
+.textLengthComments{
+      white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;  
+}
+
+
+.marginTop13{
+    margin-top:13px;
+}
+
+
+.CommentBoxAlternateColor{
+    background-color: #ebebeb;
+     margin: 0;
+    padding: 10px 40px;
+}
+
+.textAreaCommentBox{
+    margin-top:10px;
+}
+
+
+.ant-table-pagination.ant-pagination{
+    text-align: center !important;
+    float:none;
+}
+
+
+.MailOpenBlock{
+    padding:30px 0;
+      border-bottom: 1px solid #ededed;
+}
+
+.MailOpenBlockTxtArea{
+    padding:30px 0;
+}
+
+
+.sntMsg{
+    color:#999;
+}
+
+
+.attachmntfileTxt{
+    color: #783293;
+    float:right;
+        float: right;
+}
+
+.RightAlgnfile{
+    float:right;
+    padding-right:20px;
+}
+
+.RightAlgnAttachmnts{
+    color:#222;
+    font-weight:bold;
+    float: right;
+}
+
+.paperClipIcon .anticon-paper-clip{
+     visibility: visible !important;
+        float: right;
+}
+
+.MailAttachmentImg{
+    padding-right:15px;
+    float:right;
+}
+
+.MailAttachmentCmntTxt{
+      float:right;
+          font-size: 16px;
+    margin-top: 15px;
+    margin-right:30px;
+    color: #783293 !important;
+}
+
+.DataitemComponent{
+    padding-left:24px;
+}
+
+.MailAttachmentRejectTxt{
+
+          float:right;
+          font-size: 16px;
+    margin-top: 15px;
+    color: #783293 !important;
+}
+
+
+.MailAttachmentImag{
+    float: right;
+       padding: 20px 10px;
+}
+
+
+.commentHeader{
+    border-bottom:1px solid #f5f5f5;
+    margin:10px 0px;
+    padding-bottom:15px;
+}
+
+
+.MailAttachmentImage{
+       float: right; 
+}
+
+
+.noborderMailblock{
+    border:none  !important;
+}
+
+.SendMailbtn {
+    background-color: #783293 !important;
+    border-color: #783293 !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+   float:right;
+}
+
+.SendMailbtn .ant-btn{
+  border:none !important;  
+}
+
+
+.reviewButton{
+  background-color:#f5a623 !important;
+  color:#fff !important;
+    height: auto !important;
+    padding: 8px 12px !important;
+    font-size: 13px;
+
+}
+
+.reviewButton .ant-btn{
+  border:none !important;  
+}
+
+
+.CommentsBox{
+    background-color:#fff;
+    padding: 20px 10px 20px 40px;
+ }
+.CommentMessagefull{
+    border: 1px solid #e5e5e5;
+}
+.CommentsBoxReply{
+        background-color:#fff;
+    padding:20px 40px;
+}
+.DataitemComponent .dashbrdBack{
+    display:none;
+}
+
+.DataitemComponent  .EditchlngSubMenuChallengesSteps {
+    border:0px;
+}
+
+.mainFormContentmessagecen{
+padding: 0px;
+    background-color: #ffffff;
+    margin: 0px -11px 30px 3px;
+    display: table;
+    border: 1px solid #e5e5e5;
+}
+.mrgnLeft35{
+    margin-left:35px;
+}
+
+.DataitemComponent  .uploaderchlbanner img {
+    width: 272px !important;
+    height: 170px !important;
+    border: none;
+}
+.DataitemComponent .uploaderchlbanner {
+    width: 326px !important;
+    height: 230px !important;
+      border: none;
+}
+.comntimgtxt{
+    font-size:15px;
+}
+.MessageApprovalselectmem  li.ant-select-dropdown-menu-item {
+    word-break: break-all !important;
+    white-space: normal !important;
+    padding: 7px 13px;
+}
+.CircleimgMsgCenterCommentImg{
+        width:25px;
+    height:25px;
+    border-radius: 50%;
+        margin-top: 14px;
+}
+.messageCenterSearches{
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+@media (min-width: 1900px) and (max-width: 1920px){
+
+.widthresponsive{
+    width:1740px;
+}
+}
+
+
+@media (min-width: 1600px) and (max-width: 1899px){
+
+.widthresponsive{
+    width:1458px;
+}
+}
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1599px){
+
+.widthresponsive{
+    width:1435px;
+}
+}
+
+
+  @media (min-width: 1366px) and (max-width: 1499px){
+
+.widthresponsive{
+    width:1180px;
+}
+  }
+
+
+@media (min-width: 1200px) and (max-width: 1365px){
+
+.widthresponsive{
+    width:1054px;
+}
+
+}
+
+
+  @media (min-width: 1024px) and (max-width: 1199px){
+
+.widthresponsive{
+    width:872px;
+}
+  }

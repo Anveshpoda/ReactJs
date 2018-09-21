@@ -1,0 +1,80 @@
+.rightMenubg{
+    background-color: #fff;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.profileImage{
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    background: -o-linear-gradient(right,  #262626 50%, #fff 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  #262626 50%, #fff 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  #262626 50%, #fff 50%); /* Standard syntax */
+    background: -webkit-linear-gradient(-90deg, #262626 50%, #fff 50%);
+}
+.textCenter{
+    text-align: center;
+}
+.pfContactDetails{
+padding: 10px 20px;
+}
+.pfContactDetails li{
+    font-size: 14px;
+}
+
+.custom-image{
+  display: block;
+  border-radius: 50px;  
+  
+}
+.custom-image img {
+  display: block;
+  border-radius: 50px;
+  text-align: center;
+
+}
+.custom-card {
+  padding: 10px 16px;
+}
+.custom-card p {
+  color: #999;
+}
+
+.lableMargin > a{      
+    padding-top: 50px !important;    
+    margin-top: 20px !important;
+}
+.toDoView{
+
+}
+.chatView{
+
+}
+.userDirectory{
+
+}
+.chat{
+
+}
+.toDo{
+    
+}
+.userDirectoryView{
+padding: 10px 15px;
+}
+.addSuperUser {
+    z-index: 999999;
+    position: absolute;
+    right: 16px;    
+}
+.menuBold{
+    font-weight: bold;
+}
+.modalSize{
+width:420px !important;
+}
+
+.txtAlignmnt{
+margin:30px;
+text-align: center;
+}
