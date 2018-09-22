@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React, { PropTypes } from 'react';
+import axios from 'axios';
 import RichTextEditor from 'react-rte';
 import Dashboard from '../Dashboard/Dashboard'
 import classnames from 'classnames';
@@ -24,9 +25,6 @@ const format = 'HH:mm';
 //   reader.addEventListener('load', () => callback(reader.result));
 //   reader.readAsDataURL(img);
 // }
-function handleChange(value) {
-  console.log(`selected ${value}`);
-}
 
 function isEmpty(obj) {
   for (var key in obj) {
@@ -65,6 +63,12 @@ class CreateChallenge extends React.Component {
       contestType: '',
       categories: [],
       subCategories: [],
+      catId: "",
+      subCatId: "",
+      catName: '',
+      subCatName: '',
+      celebNames: [],
+      celebrityName: "",
       contestDescription: '',
       contestStartDate: '',
       contestEndDate: '',
@@ -106,6 +110,48 @@ class CreateChallenge extends React.Component {
     this.onKeyPress1 = this.onKeyPress1.bind(this);
     this.onKeyDown = this.onKeyDown.bind(this);
   }
+
+  componentWillMount() {
+    var _this = this;
+    var req = axios.create({
+      headers: {
+        "x-access-token": sessionStorage.getItem('token'),
+        "Content-Type": "application/json"
+      }
+    })
+    req.get('/categories').then((response) => {
+      _this.setState({ categories: response.data.data });
+    })
+  }
+
+  onCategoryChange = (e) => {
+    this.setState({ catId: e, subCatId: "" });
+    if (e != "") this.state.errors.catId = "";
+    let subCat = this.state.categories.filter(r => r._id === e)
+    this.setState({ subCategories: subCat[0].subCategories, catName: subCat[0].name, subCatName: "", celebrityName: "" });
+  }
+  onSubCatChange = (e) => {
+    var _this = this;
+    this.setState({ subCatId: e});
+    if (e != "") this.state.errors.subCatId = "";
+    this.state.subCategories.map((item) => {
+      if (item._id === e) {
+        this.setState({ subCatName: item.name, celebrityName: '' });
+      }
+    })
+    var getData = axios.create({
+      params: {
+        subCatId: e
+      }, headers: { 'Content-Type': 'application/json' }
+    })
+    getData.get('/celebrityNames').then(function (response) {
+      _this.setState({ celebNames: response.data.data });
+    })
+  }
+  onCelebChange = (e) => {
+    this.setState({ celebrityName: e });
+  }
+
   onChange11 = (value) => {
     this.setState({ value });
     if (this.props.onChange) {
@@ -640,6 +686,9 @@ class CreateChallenge extends React.Component {
     const { tags } = this.state;
     const { inputVisible, inputValue } = this.state;
     //const { getFieldDecorator } = this.props.form;
+    var categories = this.state.categories.map((cat) => <Option value={cat._id}>{cat.name}</Option>)
+    var subCategories = this.state.subCategories.map((cat) => <Option value={cat._id}>{cat.name}</Option>)
+    var celebNames = this.state.celebNames.map((celeb) => <Option value={celeb}>{celeb}</Option>)
     const steps = [{
       title: 'Challenge Details',
       content: <Col span={20}><Form>
@@ -775,7 +824,7 @@ class CreateChallenge extends React.Component {
               onChange={this.handleChange5}
 
               accept=".png,.jpg,.jpeg"
-              >
+            >
               {
                 this.state.contestIcon ?
                   <img src={this.state.contestIcon} name="contestIcon" alt="contest Icon Img" className="avatar" style={{ width: 320, height: 170 }} /> :
@@ -796,7 +845,7 @@ class CreateChallenge extends React.Component {
                 onChange={this.handleChange6}
                 accept=".png,.jpg,.jpeg"
 
-                >
+              >
                 {
                   this.state.contestImageUrl ?
                     <img src={this.state.contestImageUrl} name="contestImageUrl" alt="Contest Image" className="avatar" style={{ width: 320, height: 170 }} /> :
@@ -816,7 +865,7 @@ class CreateChallenge extends React.Component {
                 showUploadList={false}
                 onChange={this.handleChange7}
                 accept=".png,.jpg,.jpeg"
-                >
+              >
                 {
                   this.state.contestThumbnail ?
                     <img src={this.state.contestThumbnail} name="contestThumbnail" alt="Contest Thumbnail" className="avatar" style={{ width: 170, height: 170 }} /> :
@@ -914,13 +963,13 @@ class CreateChallenge extends React.Component {
                   onChange={this.handleInputChange}
                   onBlur={this.handleInputConfirm}
                   onPressEnter={this.handleInputConfirm}
-                  />
+                />
               )}
               {!inputVisible && (
                 <Tag
                   onClick={this.showInput}
                   style={{ background: '#fff', borderStyle: 'dashed' }}
-                  >
+                >
                   <Icon type="plus" /> New Tag
                 </Tag>
               )}
@@ -952,13 +1001,13 @@ class CreateChallenge extends React.Component {
                     onChange={this.handleInputChange}
                     onBlur={this.handleInputConfirm}
                     onPressEnter={this.handleInputConfirm}
-                    />
+                  />
                 )}
                 {!inputVisible && (
                   <Tag
                     onClick={this.showInput}
                     style={{ background: '#fff', borderStyle: 'dashed' }}
-                    >
+                  >
                     <Icon type="plus" /> New Tag
                 </Tag>
                 )}
@@ -997,7 +1046,7 @@ class CreateChallenge extends React.Component {
             name="locationr1"
             style={{ width: 200 }}
             filterOption={(input, option) => option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
-            >
+          >
             <Option value="false">Global</Option>
             <Option value="true">Local</Option>
 
@@ -1071,7 +1120,7 @@ class CreateChallenge extends React.Component {
             <RichTextEditor className="laTOfONT"
               value={this.state.value}
               onChange={this.onChange11}
-              />
+            />
 
           </FormItem>
           <p id="error" className="error" >{this.state.errors.terms}</p>
@@ -1086,35 +1135,32 @@ class CreateChallenge extends React.Component {
               <Col span={5} lg={{ span: 4 }} sm={{ span: 5 }} xl={{ span: 3 }}><h2 className="chalngpageTitle">Create Challenges</h2></Col>
 
               <Col span={5} lg={{ span: 4 }} sm={{ span: 5 }} xl={{ span: 3 }} className="PollSeleccat">
-                <Select className="PollingSeleccat" placeholder="Select Category" style={{ width: '100% ' }}
-                  getPopupContainer={triggerNode => triggerNode.parentNode}
-                  onChange={handleChange}>
-                  <Option value="jack">Jack</Option>
-                  <Option value="lucy">Lucy</Option>
-                  <Option value="disabled" disabled>Disabled</Option>
-                  <Option value="Yiminghe">yiminghe</Option>
+                <Select className="PollingSeleccat" placeholder="Select Category" style={{ width: '100% ' }} getPopupContainer={triggerNode => triggerNode.parentNode} value={this.state.catName || undefined} onChange={this.onCategoryChange}>
+                  {categories}
                 </Select>
+                <span style={{ 'color': "red" }}>{this.state.errors.catId}</span>
+              </Col>
+              <Col span={5} lg={{ span: 4 }} sm={{ span: 5 }} xl={{ span: 3 }} className="PollSeleccat">
+                <Select getPopupContainer={triggerNode => triggerNode.parentNode} style={{ width: '100% ' }}
+                  placeholder="Select SubCategory" value={this.state.subCatName || undefined}
+                  className="PollingSeleccat" onChange={this.onSubCatChange}>
+                  {subCategories}
+                </Select>
+                <span style={{ 'color': "red" }}>{this.state.errors.subCatId}</span>
 
               </Col>
               <Col span={5} lg={{ span: 4 }} sm={{ span: 5 }} xl={{ span: 3 }} className="PollSeleccat">
-                <Select className="PollingSeleccat" placeholder="Select SubCategory" style={{ width: '100% ' }}
-                  getPopupContainer={triggerNode => triggerNode.parentNode}
-                  onChange={handleChange}>
-                  <Option value="jack">Jack</Option>
-                  <Option value="lucy">Lucy</Option>
-                  <Option value="disabled" disabled>Disabled</Option>
-                  <Option value="Yiminghe">yiminghe</Option>
-                </Select>
 
-              </Col>
-              <Col span={5} lg={{ span: 4 }} sm={{ span: 5 }} xl={{ span: 3 }} className="PollSeleccat">
-                <Select className="PollingSeleccat" placeholder="Select Celebrity" style={{ width: '100% ' }}
+                <Select placeholder="Select Celebrity"
+                  style={{ width: '100% ' }}
                   getPopupContainer={triggerNode => triggerNode.parentNode}
-                  onChange={handleChange}>
-                  <Option value="jack">Jack</Option>
-                  <Option value="lucy">Lucy</Option>
-                  <Option value="disabled" disabled>Disabled</Option>
-                  <Option value="Yiminghe">yiminghe</Option>
+                  value={this.state.celebrityName || undefined}
+                  className="PollingSeleccat"
+                  showSearch
+                  optionFilterProp="children"
+                  filterOption={(input, option) => option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
+                  onChange={this.onCelebChange}>
+                  {celebNames}
                 </Select>
               </Col>
 

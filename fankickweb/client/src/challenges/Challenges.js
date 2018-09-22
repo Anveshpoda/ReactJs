@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react';
+import axios from 'axios';
 import { Link } from 'react-router';
 import css from './challenge.css';
 import $ from "jquery";
@@ -18,7 +19,20 @@ class Challenges extends React.Component {
         super(props)
         this.state = {
             totalcontests: [],
-            role: []
+            role: [],
+            categories: [],
+            subCategories: [],
+            catId: "",
+            subCatId: "",
+            catName: '',
+            subCatName: '',
+            celebNames: [],
+            celebrityName: "",
+            disabled1: false,
+            disabled2: false,
+            dataList: [],
+            dataList2: [],
+            loading: false,
         }
     }
     componentDidMount() {
@@ -28,24 +42,40 @@ class Challenges extends React.Component {
         $(".ant-layout-footer").show();
     }
     componentWillMount() {
-
         var user = JSON.parse(sessionStorage.getItem('user'));
-
         if (user.permissions !== '') {
-
             this.setState({
                 role: user.permissions.challenges
             })
         }
-
+        this.setState({ loading: true })
+        this.getContests();
     }
+    getContests = () => {
+        axios.get('/contest/', {
+            headers: {
+                "x-access-token": sessionStorage.token,
+            },
+        })
+            .then(function (response) {
+                if (response.status === 200) {
+                    const hhh = response.data.data;
+                    this.setState({ dataList: hhh,dataList2: hhh, loading: false });
+                    $("#pagenumberLi li:first-child").addClass("activeLi");
+                }
+            }.bind(this))
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+
     render() {
         return (
             <div>
                 <Col span={24} className='challengesmenu'>
                     <div className="SubMenu">
                         <div className="challengessubconmenu">
-                            <Col span={3} sm={{span:4}} lg={{span:3}} xl={{ span: 2 }}><h2 className="chalngpageTitle">MC Challenges</h2>
+                            <Col span={3} sm={{ span: 4 }} lg={{ span: 3 }} xl={{ span: 2 }}><h2 className="chalngpageTitle">MC Challenges</h2>
                             </Col>
                             <Col span={3} sm={{ span: 3 }} className="PollSeleccat">
                                 <Select className="PollingSeleccat" placeholder="Select Category" style={{ width: '100% ' }}
@@ -109,7 +139,7 @@ class Challenges extends React.Component {
 
                 </Col>
                 <div>
-                    <ContestPage />
+                    <ContestPage data={this.state.dataList} loading={this.state.loading}/>
                 </div>
             </div>
 

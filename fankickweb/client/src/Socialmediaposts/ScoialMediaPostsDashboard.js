@@ -93,11 +93,6 @@ class ScoialMediaPostsDashboard extends React.Component {
         "Content-Type": "application/json"
       }
     })
-    // req.get('/trendingPosts').then((response) => {
-    //   if (response.data.status === 200) {
-    //     this.setState({ dataList: response.data.data, dataList2: response.data.data });
-    //   }
-    // })
     req.get('/categories').then((response) => {
       this.setState({ categories: response.data.data });
     })

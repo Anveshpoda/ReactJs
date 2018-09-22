@@ -97,10 +97,8 @@ class ContestsPage extends React.Component {
           con.getContests();
           var clear = sessionStorage.removeItem('deleteuserinchallenges');
           message.success("contest is deleted successfully");
-
         }
         else {
-
           message.error("Unable to delete the contest.");
         }
       })
@@ -120,27 +118,27 @@ class ContestsPage extends React.Component {
         role: user.permissions.challenges
       })
     }
-    this.setState({ loading: true })
-    this.getContests();
+     this.setState({  data: this.props.data, loading:  this.props.loading })
+    // this.getContests();
   }
-  getContests = () => {
-    axios.get('/contest/', {
-      headers: {
-        "x-access-token": sessionStorage.token,
-      },
-    })
-      .then(function (response) {
-        if (response.status === 200) {
-          const hhh = response.data.data;
-          this.setState({ data: hhh, loading: false });
-          $("#pagenumberLi li:first-child").addClass("activeLi");
-        }
-      }.bind(this))
-      .catch(function (error) {
-        console.log(error);
-      });
+  // getContests = () => {
+  //   axios.get('/contest/', {
+  //     headers: {
+  //       "x-access-token": sessionStorage.token,
+  //     },
+  //   })
+  //     .then(function (response) {
+  //       if (response.status === 200) {
+  //         const hhh = response.data.data;
+  //         this.setState({ data: hhh, loading: false });
+  //         $("#pagenumberLi li:first-child").addClass("activeLi");
+  //       }
+  //     }.bind(this))
+  //     .catch(function (error) {
+  //       console.log(error);
+  //     });
 
-  }
+  // }
   approveUser = (e) => {
 
     var con = this;
