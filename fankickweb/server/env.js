@@ -1,5 +1,5 @@
-// exports = module.exports = {
-//     env: {
-//         env: process.env.NODE_ENV || 'qa'
-//     }
-// }
+exports = module.exports = {
+    env: {
+        env: process.env.NODE_ENV || 'anvesh'
+    }
+}

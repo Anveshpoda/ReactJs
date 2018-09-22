@@ -36,6 +36,14 @@ exports = module.exports = {
         blobContainer: "images",
         baseUrl: "http://localhost:8080",
         databaseurl: "mongodb://devfankickadmin:$Dev12345@13.126.33.219:27017/devfankick?poolSize=1000" + "&reconnectTries=" + Number.MAX_VALUE
+    },
+    anvesh: {
+        accountName: "fankicklocal",
+        accountKey: "w5DhkYW6x3dNStNq5Ozl//u/GgruCvEUk0eGpZd4/vNxcTztKsdybkzyO45lOlzNkgIQR6HDQsknf8L4QYiXLg==",
+        blobUrl: "https://fankickdev.blob.core.windows.net/",
+        blobContainer: "images",
+        baseUrl: "mongodb://Anvesh:anv@1997@ds211613.mlab.com:11613/qafankick",
+        databaseurl: "mongodb://devfankickadmin:$Dev12345@13.126.33.219:27017/devfankick?poolSize=1000" + "&reconnectTries=" + Number.MAX_VALUE
     }
 }
 
