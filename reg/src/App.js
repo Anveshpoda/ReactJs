@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Login from './Login';
-import Table from './Table';
+import Table1 from './Table';
 import { browserHistory } from 'react-router'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -11,8 +10,7 @@ class App extends Component {
       <div className="App">
         <Router history={browserHistory}>
           <Switch>
-            <Route path="/" component={Login} />
-            <Route path="/table1" component={Table} />
+            <Route path="/" component={Table1} />
           </Switch>
         </Router>
       </div>

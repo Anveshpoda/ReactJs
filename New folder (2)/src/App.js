@@ -6,7 +6,6 @@ import Home from './Home';
 import Login from './Login';
 import Table from './Table';
 import category from './category';
-import Audio from './audio';
 import Login1 , {Form} from './Login1';
 import Hedder from './components/Hedder';
 //import { Button , ButtonGroup , Navbar,Nav,MenuItem,NavItem,NavDropdown } from 'react-bootstrap';
@@ -23,7 +22,6 @@ class App extends Component {
                   <Route exact path='/Login1' component={Login1} />
                   <Route exact path='/Table' component={Table} /> 
                   <Route exact path='/category' component={category} /> 
-                  <Route exact path='/audio' component={Audio} /> 
                </Switch>
             </div>
          </Router>

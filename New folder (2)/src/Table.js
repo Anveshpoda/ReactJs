@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 import Login, { Form } from './Login1';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
-import { Table, Divider, Tag ,Popover} from 'antd';
+import { Table, Divider, Tag } from 'antd';
 
 import ReactTable from "react-table";
 import "react-table/react-table.css";
@@ -207,12 +207,7 @@ class DefaultPaginationTable extends React.Component {
     //const items = JSON.parse(localStorage.getItem('Item'))
     const items = this.props.items
 
-    const content = (
-      <div>
-        <p>Content</p>
-        <p>Content</p>
-      </div>
-    );
+
 
     const columns = [{
       title: 'User Name',
@@ -226,15 +221,7 @@ class DefaultPaginationTable extends React.Component {
     }, {
       title: 'Mobile',
       dataIndex: 'mobile',
-     // key: 'mobile',
-      render: (text, record) => (
-        <div>
-          <Popover content={text} title="Title">
-                 {text}
-           </Popover>
-              
-        </div>
-      ),
+      key: 'mobile',
     }, {
       title: 'Action',
       key: 'action',

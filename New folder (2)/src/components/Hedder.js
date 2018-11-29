@@ -40,8 +40,8 @@ const Header = () =>{
                 </NavDropdown>
                  </Nav>
                  <Nav pullRight>
-                  <NavItem eventKey={1} href="/audio">
-                     AUDIO
+                  <NavItem eventKey={1} href="#">
+                     Link Right
                </NavItem>
                <NavItem eventKey={2} href="#">
                      Link Right

@@ -1,6 +1,0 @@
-node_modules/
-client/src/pushnotifications/PredefinedNotification.js
-server/controller/predefinedNotification.js
-server/models/predefinedNotification.js
-
-npm-debug.log
