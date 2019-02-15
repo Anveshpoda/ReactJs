@@ -1,0 +1,30 @@
+.ProfileBgColor{
+    background-color: #cfd8f0 !important;
+    color:#ffffff;
+}
+
+.Couponsitem{
+    padding-right:10px;
+    font-size:12px;
+}
+.NavareaChart{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: normal;
+}    
+
+.notCount {
+    background-color: red;
+    border-radius: 110%;
+    position: relative;
+    color: #ffffff;
+    top: -12px !important;
+    font-size: 15px;
+    padding: 1px 5px !important;
+    left: -11px !important;
+}
+
+.NavRight{
+    float:right;
+    padding-right: 13px;
+}
