@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Login, { Form } from './Login1';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import { Table, Divider, Tag ,Popover} from 'antd';
@@ -330,7 +330,7 @@ class DefaultPaginationTable extends React.Component {
 
         <br /><br /><br /><br />
         {console.log(this.props.pgNo)}
-        <Table columns={columns} pagination={{ pageSize: 2, defaultCurrent: 100 }} dataSource={items} />
+        <Table columns={columns} pagination={{ pageSize: 5, defaultCurrent: 100 }} dataSource={items} />
 
 
       </div>

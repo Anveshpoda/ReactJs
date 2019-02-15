@@ -1,0 +1,13 @@
+.logoSpace{
+    background-color: rgba(4, 4, 78, 0.932);
+    min-height: 4em;
+    align-self: center;
+    padding-top: 5px;
+}
+
+.trigger{
+padding-top: 10px;  
+padding-left: 6px;
+color: aliceblue;
+
+}
