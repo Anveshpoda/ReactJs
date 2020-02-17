@@ -1,0 +1,55 @@
+@import '~antd/dist/antd.css';
+
+.App {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(-10000deg); }
+    to { transform: rotate(360deg); }
+  }
+
+
+.mainSearch .ant-input {
+    border-radius: 25px;
+    background-color: #eee;
+  }
+
+
+  .App-logo {
+    float: right;
+    animation: App-logo-spin infinite 20s linear;
+    height: 50px;
+    left: -5px;
+    top: -5px;
+    position: absolute;
+  }
+  
+  .App-header {
+    background-color: #fcfcfc;
+    /* height: 63px; */
+    min-height: 80px;
+    padding: 20px;
+    color: white;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 6px 7px 0px rgba(0,0,0,0.2);
+  }
+  
+  .App-title {
+    font-size: 3em;
+    left: 40%;
+    top:1px;
+    color: black;
+    position: absolute;
+  
+  }
