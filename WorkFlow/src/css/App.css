@@ -15,12 +15,6 @@
     to { transform: rotate(360deg); }
   }
 
-  .divCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
 
 .mainSearch .ant-input {
     border-radius: 25px;
@@ -37,9 +31,14 @@
     position: absolute;
   }
 
-  html, body {
-    height: auto;
-}
+  .divCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  
   .App-header {
     background-color: #fcfcfc;
     /* height: 63px; */

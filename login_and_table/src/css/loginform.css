@@ -1,0 +1,14 @@
+.login-form {
+    max-width: 300px;
+  }
+.login-form-forgot {
+    float: right;
+  }
+.login-form-button {
+    width: 100%;
+  }
+
+  .login-Card{
+    box-shadow: 0 6px 7px 0px rgba(0,0,0,0.2);
+    background-color: #fdfdfd;
+  }
