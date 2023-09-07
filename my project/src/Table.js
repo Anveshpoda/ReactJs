@@ -54,9 +54,9 @@ export default class Table1 extends React.Component {
     const arrayCopy = this.state.items.filter((row) => {
       if (row.id !== this.state.row.id) return row
       else {
-        row.username = this.state.username,
-          row.password = this.state.password,
-          row.mobile = this.state.mobile
+        row.username = this.state.username
+        row.password = this.state.password
+        row.mobile = this.state.mobile
         return row
       }
     });
