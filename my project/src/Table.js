@@ -94,7 +94,8 @@ export default class Table1 extends React.Component {
 
   createSelectItems() {
     let opt = [];
-    for (let i = 0; i <= this.state.items.length+1; i+=2) {
+    if (!this.state.items) return [];
+    for (let i = 0; i <= this.state.items.length + 1; i += 2) {
       opt.push(<option key={i} value={i}>{i}</option>);
     }
     return opt;
