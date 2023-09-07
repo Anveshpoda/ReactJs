@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import "styles/wieldy.less";
-import {Route, Switch} from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import App from "./containers/App/index";
 
 
@@ -11,11 +11,11 @@ import App from "./containers/App/index";
 const NextApp = () =>
   // <Provider store={store}>
   //   <ConnectedRouter history={history}>
-      <Switch>
-        <Route path="/" component={App}/>
-      </Switch>
-  //   </ConnectedRouter>
-  // </Provider>;
+  <Router>
+    <Route path="/" component={App} />
+  </Router>
+//   </ConnectedRouter>
+// </Provider>;
 
 
 export default NextApp;
